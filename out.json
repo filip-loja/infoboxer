@@ -10,7 +10,7 @@
     "area_km2": 24521,
     "area_type": "total",
     "elevation_m": 938,
-    "leader": "Mansur Yavas"
+    "leader": "mansur yavas"
   },
   "1": {
     "name": "Amsterdam",
@@ -22,7 +22,7 @@
     "population_density": 3979.03,
     "area_km2": 219.32,
     "area_type": "total",
-    "leader": "Femke Halsema",
+    "leader": "femke halsema",
     "errors": [
       "elevation_m"
     ]
@@ -38,7 +38,7 @@
     "area_km2": 91,
     "area_type": "urban",
     "elevation_m": 105,
-    "leader": "Jacob Bundsgaard"
+    "leader": "jacob bundsgaard"
   },
   "3": {
     "name": "Athens",
@@ -51,7 +51,7 @@
     "area_km2": 38.964,
     "area_type": "total",
     "elevation_m": 204.05,
-    "leader": "Kostas Bakoyannis"
+    "leader": "kostas bakoyannis"
   },
   "4": {
     "name": "Ames",
@@ -64,7 +64,7 @@
     "area_km2": 71.71,
     "area_type": "total",
     "elevation_m": 287,
-    "leader": "John Haila"
+    "leader": "john haila"
   },
   "5": {
     "name": "Acapulco",
@@ -77,7 +77,7 @@
     "area_km2": 1880.6,
     "area_type": "total",
     "elevation_m": 30,
-    "leader": "Adela Roman"
+    "leader": "adela roman"
   },
   "6": {
     "name": "Aberdeen",
@@ -89,7 +89,7 @@
     "population_density": 3505.7,
     "area_km2": 185.7,
     "area_type": "total",
-    "leader": "Aberdeen City Council",
+    "leader": "aberdeen city council",
     "errors": [
       "elevation_m"
     ]
@@ -105,7 +105,7 @@
     "area_km2": 363,
     "area_type": "total",
     "elevation_m": 213,
-    "leader": "Abdelkader seyouda"
+    "leader": "abdelkader seyouda"
   },
   "8": {
     "name": "Astoria",
@@ -118,7 +118,7 @@
     "area_km2": 25.77,
     "area_type": "total",
     "elevation_m": 7,
-    "leader": "Bruce Jones"
+    "leader": "bruce jones"
   },
   "9": {
     "name": "Abadan",
@@ -131,7 +131,7 @@
     "area_km2": 1275,
     "area_type": "urban",
     "elevation_m": 3,
-    "leader": "Mahmood Reza Shirazi"
+    "leader": "mahmood reza shirazi"
   },
   "10": {
     "name": "Austin",
@@ -144,7 +144,7 @@
     "area_km2": 845.66,
     "area_type": "total",
     "elevation_m": 88,
-    "leader": "Steve Adler"
+    "leader": "steve adler"
   },
   "11": {
     "name": "Ann Arbor",
@@ -157,7 +157,7 @@
     "area_km2": 74.56,
     "area_type": "total",
     "elevation_m": 256,
-    "leader": "Christopher Taylor"
+    "leader": "christopher taylor"
   },
   "12": {
     "name": "Alicante",
@@ -167,7 +167,7 @@
     "area_km2": 201.27,
     "area_type": "total",
     "elevation_m": 3,
-    "leader": "Luis Barcala",
+    "leader": "luis barcala",
     "errors": [
       "population",
       "population_density"
@@ -181,7 +181,7 @@
     "population": 59116,
     "population_type": "total",
     "elevation_m": 1889.76,
-    "leader": "Gholamabbas Zare",
+    "leader": "gholamabbas zare",
     "errors": [
       "area_km2",
       "population_density"
@@ -198,7 +198,7 @@
     "area_km2": 42.98,
     "area_type": "total",
     "elevation_m": 397,
-    "leader": "Travis Schaunaman"
+    "leader": "travis schaunaman"
   },
   "15": {
     "name": "Alameda",
@@ -211,7 +211,7 @@
     "area_km2": 59.83,
     "area_type": "total",
     "elevation_m": 10.06,
-    "leader": "Marilyn Ezzy Ashcraft"
+    "leader": "marilyn ezzy ashcraft"
   },
   "16": {
     "name": "Alexandria",
@@ -224,7 +224,7 @@
     "area_km2": 7.83,
     "area_type": "total",
     "elevation_m": 265,
-    "leader": "Ron Richardson"
+    "leader": "ron richardson"
   },
   "17": {
     "name": "Alexandria",
@@ -237,7 +237,7 @@
     "area_km2": 75.58,
     "area_type": "total",
     "elevation_m": 22.86,
-    "leader": "Jeff Hall"
+    "leader": "jeff hall"
   },
   "18": {
     "name": "Andersonville",
@@ -265,7 +265,7 @@
     "area_km2": 354.22,
     "area_type": "total",
     "elevation_m": 225,
-    "leader": "Keisha Lance Bottoms"
+    "leader": "keisha lance bottoms"
   },
   "20": {
     "name": "The Bronx",
@@ -278,7 +278,7 @@
     "area_km2": 147.63,
     "area_type": "total",
     "elevation_m": 85.34,
-    "leader": "Darcel Clark"
+    "leader": "ruben diaz jr."
   },
   "21": {
     "name": "Berlin",
@@ -291,7 +291,7 @@
     "area_km2": 891.1,
     "area_type": "total",
     "elevation_m": 34,
-    "leader": "Michael Muller"
+    "leader": "michael muller"
   },
   "22": {
     "name": "Bursa",
@@ -304,7 +304,7 @@
     "area_km2": 1036,
     "area_type": "blank1",
     "elevation_m": 100,
-    "leader": "Alinur Aktas"
+    "leader": "alinur aktas"
   },
   "23": {
     "name": "Bitola",
@@ -317,7 +317,7 @@
     "area_km2": 422.39,
     "area_type": "total",
     "elevation_m": 576,
-    "leader": "Natasa Petrovska",
+    "leader": "natasa petrovska",
     "errors": [
       "unrecognized country"
     ]
@@ -333,7 +333,7 @@
     "area_km2": 135.92,
     "area_type": "total",
     "elevation_m": 182.88,
-    "leader": "Byron Brown"
+    "leader": "byron brown"
   },
   "25": {
     "name": "Barcelona",
@@ -345,7 +345,7 @@
     "area_km2": 101.4,
     "area_type": "total",
     "elevation_m": 12,
-    "leader": "Ada Colau Ballano",
+    "leader": "ada colau ballano",
     "errors": [
       "population_density"
     ]
@@ -358,7 +358,7 @@
     "area_km2": 673,
     "area_type": "total",
     "elevation_m": 34,
-    "leader": "Zekra Alwach",
+    "leader": "zekra alwach",
     "errors": [
       "population",
       "population_density"
@@ -375,7 +375,7 @@
     "area_km2": 16.39,
     "area_type": "total",
     "elevation_m": 1015.9,
-    "leader": "Rennie Brantz"
+    "leader": "rennie brantz"
   },
   "28": {
     "name": "Bishkek",
@@ -388,7 +388,7 @@
     "area_km2": 169.9,
     "area_type": "total",
     "elevation_m": 800,
-    "leader": "Aziz Surakmatov"
+    "leader": "aziz surakmatov"
   },
   "29": {
     "name": "Baku",
@@ -400,7 +400,7 @@
     "population_density": 1057,
     "area_km2": 2140,
     "area_type": "total",
-    "leader": "Eldar Azizov",
+    "leader": "eldar azizov",
     "errors": [
       "elevation_m"
     ]
@@ -416,7 +416,7 @@
     "area_km2": 45.73,
     "area_type": "total",
     "elevation_m": 52.12,
-    "leader": "Jesse Arreguin"
+    "leader": "jesse arreguin"
   },
   "31": {
     "name": "Copenhagen",
@@ -444,7 +444,7 @@
     "area_km2": 18.38,
     "area_type": "total",
     "elevation_m": 12,
-    "leader": "Sumbul Siddiqui"
+    "leader": "sumbul siddiqui"
   },
   "33": {
     "name": "Cardiff",
@@ -455,7 +455,7 @@
     "population_type": "urban",
     "area_km2": 140.3,
     "area_type": "total",
-    "leader": "Huw Thomas",
+    "leader": "huw thomas",
     "errors": [
       "elevation_m",
       "population_density"
@@ -472,7 +472,7 @@
     "area_km2": 582.94,
     "area_type": "total",
     "elevation_m": 275,
-    "leader": "Andrew J. Ginther"
+    "leader": "andrew j. ginther"
   },
   "35": {
     "name": "Cleveland",
@@ -485,14 +485,14 @@
     "area_km2": 213.62,
     "area_type": "total",
     "elevation_m": 199,
-    "leader": "Frank G. Jackson"
+    "leader": "frank g. jackson"
   },
   "36": {
     "name": "Chernobyl",
     "type": "city",
     "subdivision_type": "country",
     "country": "ukraine; ua; ukr",
-    "leader": "State Agency of Ukraine on the Exclusion Zone Management",
+    "leader": "state agency of ukraine on the exclusion zone management",
     "errors": [
       "population",
       "area_km2",
@@ -511,7 +511,7 @@
     "area_km2": 505.98,
     "area_type": "total",
     "elevation_m": 1839.47,
-    "leader": "John Suthers"
+    "leader": "john suthers"
   },
   "38": {
     "name": "Ceuta",
@@ -521,7 +521,7 @@
     "area_km2": 18.5,
     "area_type": "total",
     "elevation_m": 10,
-    "leader": "Juan Jesus Vivas",
+    "leader": "juan jesus vivas",
     "errors": [
       "population",
       "population_density"
@@ -538,7 +538,7 @@
     "area_km2": 174.02,
     "area_type": "total",
     "elevation_m": 88,
-    "leader": "Jim Bouley"
+    "leader": "jim bouley"
   },
   "40": {
     "name": "City of Cadillac",
@@ -551,7 +551,7 @@
     "area_km2": 23.09,
     "area_type": "total",
     "elevation_m": 399,
-    "leader": "Carla Filkins"
+    "leader": "carla filkins"
   },
   "41": {
     "name": "Cedar Falls",
@@ -564,7 +564,7 @@
     "area_km2": 77.15,
     "area_type": "total",
     "elevation_m": 268,
-    "leader": "Rob Green"
+    "leader": "rob green"
   },
   "42": {
     "name": "Columbia",
@@ -577,7 +577,7 @@
     "area_km2": 171.05,
     "area_type": "total",
     "elevation_m": 231.04,
-    "leader": "Brian Treece"
+    "leader": "brian treece"
   },
   "43": {
     "name": "Columbus",
@@ -590,7 +590,7 @@
     "area_km2": 73.66,
     "area_type": "total",
     "elevation_m": 192,
-    "leader": "Jim Lienhoop"
+    "leader": "jim lienhoop"
   },
   "44": {
     "name": "City of London",
@@ -603,7 +603,7 @@
     "area_km2": 2.9,
     "area_type": "total",
     "elevation_m": 21,
-    "leader": "William Russell",
+    "leader": "william russell",
     "errors": [
       "unrecognized country"
     ]
@@ -619,7 +619,7 @@
     "area_km2": 606.6,
     "area_type": "total",
     "elevation_m": 182.02,
-    "leader": "Lori Lightfoot"
+    "leader": "lori lightfoot"
   },
   "46": {
     "name": "Casablanca",
@@ -632,7 +632,7 @@
     "area_km2": 220,
     "area_type": "total",
     "elevation_m": 150,
-    "leader": "Abdelaziz El Omari"
+    "leader": "abdelaziz el omari"
   },
   "47": {
     "name": "Carson City",
@@ -645,7 +645,7 @@
     "area_km2": 407.26,
     "area_type": "total",
     "elevation_m": 1463,
-    "leader": "Bob Crowell"
+    "leader": "bob crowell"
   },
   "48": {
     "name": "Dayton",
@@ -658,14 +658,14 @@
     "area_km2": 146.46,
     "area_type": "total",
     "elevation_m": 224.94,
-    "leader": "Nan Whaley"
+    "leader": "nan whaley"
   },
   "49": {
     "name": "Delft",
     "type": "city",
     "subdivision_type": "country",
     "country": "netherlands; nl; nld",
-    "leader": "Marja van Bijsterveldt",
+    "leader": "marja van bijsterveldt",
     "errors": [
       "population",
       "area_km2",
@@ -683,7 +683,7 @@
     "population_density": 727.55,
     "area_km2": 10989,
     "area_type": "total",
-    "leader": "Aboubakar Kunenge",
+    "leader": "aboubakar kunenge",
     "errors": [
       "elevation_m"
     ]
@@ -698,7 +698,7 @@
     "population_density": 4811,
     "area_km2": 115,
     "area_type": "total",
-    "leader": "Dublin City Hall",
+    "leader": "dublin city hall",
     "errors": [
       "elevation_m"
     ]
@@ -714,7 +714,7 @@
     "area_km2": 401.24,
     "area_type": "total",
     "elevation_m": 1564,
-    "leader": "Michael Hancock"
+    "leader": "michael hancock"
   },
   "53": {
     "name": "Dedham",
@@ -727,7 +727,7 @@
     "area_km2": 27.6,
     "area_type": "total",
     "elevation_m": 37,
-    "leader": "Leon Goodwin"
+    "leader": "leon goodwin"
   },
   "54": {
     "name": "Davenport",
@@ -740,7 +740,7 @@
     "area_km2": 170.79,
     "area_type": "total",
     "elevation_m": 176.78,
-    "leader": "Mike Matson"
+    "leader": "mike matson"
   },
   "55": {
     "name": "Detroit",
@@ -753,7 +753,7 @@
     "area_km2": 370.08,
     "area_type": "total",
     "elevation_m": 199.95,
-    "leader": "Mike Duggan"
+    "leader": "mike duggan"
   },
   "56": {
     "name": "Dundee",
@@ -766,7 +766,7 @@
     "area_km2": 60,
     "area_type": "total",
     "elevation_m": 18,
-    "leader": "Ian Borthwick"
+    "leader": "ian borthwick"
   },
   "57": {
     "name": "Damascus",
@@ -794,7 +794,7 @@
     "area_km2": 234.81,
     "area_type": "total",
     "elevation_m": 291,
-    "leader": "Frank Cownie"
+    "leader": "frank cownie"
   },
   "59": {
     "name": "Eindhoven",
@@ -804,7 +804,7 @@
     "population": 755313,
     "population_type": "blank1",
     "elevation_m": 17,
-    "leader": "John Jorritsma",
+    "leader": "john jorritsma",
     "errors": [
       "area_km2",
       "population_density"
@@ -821,9 +821,7 @@
     "area_km2": 17.9,
     "area_type": "urban",
     "elevation_m": 8,
-    "errors": [
-      "leader"
-    ]
+    "leader": "benedikte kiaer"
   },
   "61": {
     "name": "Edinburgh",
@@ -836,7 +834,7 @@
     "area_km2": 264,
     "area_type": "total",
     "elevation_m": 47,
-    "leader": "City of Edinburgh Council"
+    "leader": "city of edinburgh council"
   },
   "62": {
     "name": "Ellensburg",
@@ -849,7 +847,7 @@
     "area_km2": 20.23,
     "area_type": "total",
     "elevation_m": 470,
-    "leader": "John Akers"
+    "leader": "john akers"
   },
   "63": {
     "name": "Eugene",
@@ -862,7 +860,7 @@
     "area_km2": 114.5,
     "area_type": "total",
     "elevation_m": 131,
-    "leader": "Lucy Vinis"
+    "leader": "lucy vinis"
   },
   "64": {
     "name": "Eureka",
@@ -875,7 +873,7 @@
     "area_km2": 27.71,
     "area_type": "total",
     "elevation_m": 139,
-    "leader": "Sean Flower",
+    "leader": "sean flower",
     "errors": [
       "unrecognized country"
     ]
@@ -905,7 +903,7 @@
     "area_km2": 132.57,
     "area_type": "total",
     "elevation_m": 20,
-    "leader": "Mike O'Brien"
+    "leader": "mike o'brien"
   },
   "67": {
     "name": "Fortaleza",
@@ -918,7 +916,7 @@
     "area_km2": 314.93,
     "area_type": "total",
     "elevation_m": 21,
-    "leader": "Roberto Claudio"
+    "leader": "roberto claudio"
   },
   "68": {
     "name": "Fort Wayne",
@@ -931,7 +929,7 @@
     "area_km2": 286.95,
     "area_type": "total",
     "elevation_m": 247,
-    "leader": "Tom Henry"
+    "leader": "tom henry"
   },
   "69": {
     "name": "Fairmount",
@@ -959,7 +957,7 @@
     "area_km2": 151.38,
     "area_type": "total",
     "elevation_m": 1525,
-    "leader": "Wade Troxell"
+    "leader": "wade troxell"
   },
   "71": {
     "name": "Gothenburg",
@@ -987,7 +985,7 @@
     "area_km2": 220,
     "area_type": "total",
     "elevation_m": 1500,
-    "leader": "Ricardo Quinonez Lemus"
+    "leader": "ricardo quinonez lemus"
   },
   "73": {
     "name": "Guangzhou",
@@ -1000,7 +998,7 @@
     "area_km2": 7434.4,
     "area_type": "total",
     "elevation_m": 21,
-    "leader": "Zhang Shuofu"
+    "leader": "zhang shuofu"
   },
   "74": {
     "name": "Guernica",
@@ -1010,7 +1008,7 @@
     "area_km2": 8.6,
     "area_type": "total",
     "elevation_m": 10,
-    "leader": "Jose Maria Gorrono Etxebarrieta",
+    "leader": "jose maria gorrono etxebarrieta",
     "errors": [
       "population",
       "population_density"
@@ -1027,7 +1025,7 @@
     "area_km2": 148.18,
     "area_type": "total",
     "elevation_m": 185.01,
-    "leader": "Jerome A. Prince"
+    "leader": "jerome a. prince"
   },
   "76": {
     "name": "Goshen",
@@ -1040,7 +1038,7 @@
     "area_km2": 46.5,
     "area_type": "total",
     "elevation_m": 244,
-    "leader": "Jeremy Stutsman"
+    "leader": "jeremy stutsman"
   },
   "77": {
     "name": "Hamburg",
@@ -1052,7 +1050,7 @@
     "population_density": 2514.71,
     "area_km2": 755.22,
     "area_type": "total",
-    "leader": "Peter Tschentscher",
+    "leader": "peter tschentscher",
     "errors": [
       "elevation_m"
     ]
@@ -1065,7 +1063,7 @@
     "population": 90261,
     "population_type": "total",
     "elevation_m": 15,
-    "leader": "Pieter Broertjes",
+    "leader": "pieter broertjes",
     "errors": [
       "area_km2",
       "population_density"
@@ -1082,7 +1080,7 @@
     "area_km2": 1739.69,
     "area_type": "total",
     "elevation_m": 32,
-    "leader": "Sylvester Turner"
+    "leader": "sylvester turner"
   },
   "80": {
     "name": "Hastings",
@@ -1094,7 +1092,7 @@
     "population_density": 3300,
     "area_km2": 29.72,
     "area_type": "total",
-    "leader": "Nigel Sinden",
+    "leader": "nigel sinden",
     "errors": [
       "elevation_m"
     ]
@@ -1110,7 +1108,7 @@
     "area_km2": 177.2,
     "area_type": "total",
     "elevation_m": 6,
-    "leader": "Kirk Caldwell"
+    "leader": "kirk caldwell"
   },
   "82": {
     "name": "Hanover",
@@ -1123,7 +1121,7 @@
     "area_km2": 130.2,
     "area_type": "total",
     "elevation_m": 161,
-    "leader": "Peter L. Christie"
+    "leader": "peter l. christie"
   },
   "83": {
     "name": "Harwich",
@@ -1136,7 +1134,7 @@
     "area_km2": 85.8,
     "area_type": "total",
     "elevation_m": 17,
-    "leader": "Town Administrator"
+    "leader": "town administrator"
   },
   "84": {
     "name": "Herat",
@@ -1164,7 +1162,7 @@
     "area_km2": 1138.11,
     "area_type": "total",
     "elevation_m": 199.5,
-    "leader": "Fred Eisenberger"
+    "leader": "fred eisenberger"
   },
   "86": {
     "name": "Hamar",
@@ -1177,7 +1175,7 @@
     "area_km2": 350.94,
     "area_type": "total",
     "elevation_m": 150,
-    "leader": "Einar Busterud"
+    "leader": "einar busterud"
   },
   "87": {
     "name": "Iqaluit",
@@ -1190,7 +1188,7 @@
     "area_km2": 52.5,
     "area_type": "total",
     "elevation_m": 33.53,
-    "leader": "Kenny Bell"
+    "leader": "kenny bell"
   },
   "88": {
     "name": "Ithaca",
@@ -1203,7 +1201,7 @@
     "area_km2": 15.72,
     "area_type": "total",
     "elevation_m": 123.14,
-    "leader": "Svante Myrick"
+    "leader": "svante myrick"
   },
   "89": {
     "name": "Jerusalem",
@@ -1211,7 +1209,7 @@
     "subdivision_type": "administered by",
     "country": "israel; il; isr",
     "elevation_m": 754,
-    "leader": "Moshe Lion",
+    "leader": "moshe lion",
     "errors": [
       "population",
       "area_km2",
@@ -1229,7 +1227,7 @@
     "area_km2": 293.27,
     "area_type": "total",
     "elevation_m": 85,
-    "leader": "Chokwe Antar Lumumba"
+    "leader": "chokwe antar lumumba"
   },
   "91": {
     "name": "Jalalabad",
@@ -1256,7 +1254,7 @@
     "area_km2": 243,
     "area_type": "total",
     "elevation_m": 66,
-    "leader": "Nor Hisham Ahmad Dahlan"
+    "leader": "nor hisham ahmad dahlan"
   },
   "93": {
     "name": "Kagoshima",
@@ -1268,7 +1266,7 @@
     "population_density": 1086.69,
     "area_km2": 547.58,
     "area_type": "total",
-    "leader": "Hiroyuki Mori",
+    "leader": "hiroyuki mori",
     "errors": [
       "elevation_m"
     ]
@@ -1283,7 +1281,7 @@
     "population_density": 685.06,
     "area_km2": 787.61,
     "area_type": "total",
-    "leader": "Dato",
+    "leader": "dato' haji rosli bin othman dpms",
     "errors": [
       "elevation_m"
     ]
@@ -1299,7 +1297,7 @@
     "area_km2": 49.45,
     "area_type": "total",
     "elevation_m": 1400,
-    "leader": "Bidya Sundar Shakya"
+    "leader": "bidya sundar shakya"
   },
   "96": {
     "name": "Keflav",
@@ -1326,7 +1324,7 @@
     "area_km2": 273.37,
     "area_type": "total",
     "elevation_m": 1010,
-    "leader": "Rokhan Wolasmal"
+    "leader": "rokhan wolasmal"
   },
   "98": {
     "name": "Kansas City",
@@ -1339,7 +1337,7 @@
     "area_km2": 826.14,
     "area_type": "total",
     "elevation_m": 277,
-    "leader": "Quinton Lucas"
+    "leader": "quinton lucas"
   },
   "99": {
     "name": "Lincoln",
@@ -1352,7 +1350,7 @@
     "area_km2": 252.75,
     "area_type": "total",
     "elevation_m": 358,
-    "leader": "Leirion Gaylor Baird"
+    "leader": "leirion gaylor baird"
   },
   "100": {
     "name": "London",
@@ -1377,7 +1375,7 @@
     "population_density": 687,
     "area_km2": 35.69,
     "area_type": "total",
-    "leader": "Leader and cabinet",
+    "leader": "leader and cabinet",
     "errors": [
       "elevation_m"
     ]
@@ -1393,7 +1391,9 @@
     "area_km2": 199.6,
     "area_type": "urban",
     "elevation_m": 70.1,
-    "leader": "Mayor and Cabinet"
+    "errors": [
+      "leader"
+    ]
   },
   "103": {
     "name": "Lisbon",
@@ -1406,7 +1406,7 @@
     "area_km2": 100.05,
     "area_type": "total",
     "elevation_m": 2,
-    "leader": "Fernando Medina"
+    "leader": "fernando medina"
   },
   "104": {
     "name": "Los Angeles",
@@ -1419,7 +1419,7 @@
     "area_km2": 1302.06,
     "area_type": "total",
     "elevation_m": 93,
-    "leader": "Eric Garcetti"
+    "leader": "eric garcetti"
   },
   "105": {
     "name": "Lincoln",
@@ -1432,7 +1432,7 @@
     "area_km2": 339,
     "area_type": "total",
     "elevation_m": 247,
-    "leader": "O.J"
+    "leader": "o.j. robinson"
   },
   "106": {
     "name": "Longmeadow",
@@ -1445,7 +1445,7 @@
     "area_km2": 25,
     "area_type": "total",
     "elevation_m": 49,
-    "leader": "Lyn Simmons"
+    "leader": "lyn simmons"
   },
   "107": {
     "name": "Luanda",
@@ -1473,7 +1473,7 @@
     "area_km2": 103.16,
     "area_type": "total",
     "elevation_m": 262,
-    "leader": "Julius Sumner Miller"
+    "leader": "julius sumner miller"
   },
   "109": {
     "name": "Los Altos",
@@ -1486,7 +1486,7 @@
     "area_km2": 16.94,
     "area_type": "total",
     "elevation_m": 48,
-    "leader": "Jan Pepper"
+    "leader": "jan pepper"
   },
   "110": {
     "name": "Mexico City",
@@ -1512,7 +1512,7 @@
     "area_km2": 603,
     "area_type": "total",
     "elevation_m": 14,
-    "leader": "Kishori Pednekar"
+    "leader": "kishori pednekar"
   },
   "112": {
     "name": "Moncton",
@@ -1525,7 +1525,7 @@
     "area_km2": 141.92,
     "area_type": "total",
     "elevation_m": 70,
-    "leader": "Dawn Arnold"
+    "leader": "dawn arnold"
   },
   "113": {
     "name": "Maastricht",
@@ -1552,7 +1552,7 @@
     "area_km2": 630.3,
     "area_type": "urban",
     "elevation_m": 38,
-    "leader": "Leader and Cabinet",
+    "leader": "leader and cabinet",
     "errors": [
       "unrecognized country"
     ]
@@ -1566,7 +1566,7 @@
     "population_type": "blank1",
     "area_km2": 12.3,
     "area_type": "total",
-    "leader": "Eduardo de Castro",
+    "leader": "eduardo de castro",
     "errors": [
       "elevation_m",
       "population_density"
@@ -1583,7 +1583,7 @@
     "area_km2": 50.24,
     "area_type": "total",
     "elevation_m": 203,
-    "leader": "Jenna Smith"
+    "leader": "jenna smith"
   },
   "117": {
     "name": "Manama",
@@ -1595,7 +1595,7 @@
     "population_density": 5200,
     "area_km2": 30,
     "area_type": "total",
-    "leader": "Hamad bin Isa Al Khalifa",
+    "leader": "hamad bin isa al khalifa",
     "errors": [
       "elevation_m"
     ]
@@ -1608,7 +1608,7 @@
     "population": 928850,
     "population_type": "total",
     "elevation_m": 466,
-    "leader": "Mohamed Larbi Belcaid",
+    "leader": "mohamed larbi belcaid",
     "errors": [
       "area_km2",
       "population_density"
@@ -1621,7 +1621,7 @@
     "population": 427600,
     "population_type": "total",
     "elevation_m": 357,
-    "leader": "Abdullhaq Khurami",
+    "leader": "abdullhaq khurami",
     "errors": [
       "area_km2",
       "population_density"
@@ -1638,7 +1638,7 @@
     "area_km2": 40.98,
     "area_type": "total",
     "elevation_m": 274.7,
-    "leader": "Sasa Arsenovic"
+    "leader": "sasa arsenovic"
   },
   "121": {
     "name": "Mobile",
@@ -1651,7 +1651,7 @@
     "area_km2": 466.34,
     "area_type": "total",
     "elevation_m": 3,
-    "leader": "Sandy Stimpson"
+    "leader": "sandy stimpson"
   },
   "122": {
     "name": "Nairobi",
@@ -1664,7 +1664,7 @@
     "area_km2": 696,
     "area_type": "total",
     "elevation_m": 1795,
-    "leader": "County Assembly"
+    "leader": "county assembly"
   },
   "123": {
     "name": "Nijmegen",
@@ -1672,7 +1672,7 @@
     "subdivision_type": "country",
     "country": "netherlands; nl; nld",
     "elevation_m": 29,
-    "leader": "Hubert Bruls",
+    "leader": "hubert bruls",
     "errors": [
       "population",
       "area_km2",
@@ -1690,7 +1690,7 @@
     "area_km2": 405.86,
     "area_type": "total",
     "elevation_m": -1,
-    "leader": "Tomihisa Taue",
+    "leader": "tomihisa taue",
     "errors": [
       "unrecognized country"
     ]
@@ -1706,7 +1706,7 @@
     "area_km2": 6587,
     "area_type": "total",
     "elevation_m": 15.24,
-    "leader": "Zhang Jinghua"
+    "leader": "zhang jinghua"
   },
   "126": {
     "name": "Nashville",
@@ -1719,7 +1719,7 @@
     "area_km2": 1362.18,
     "area_type": "total",
     "elevation_m": 181.97,
-    "leader": "John Cooper"
+    "leader": "john cooper"
   },
   "127": {
     "name": "Ottawa",
@@ -1732,7 +1732,7 @@
     "area_km2": 2790.3,
     "area_type": "total",
     "elevation_m": 70,
-    "leader": "Jim Watson"
+    "leader": "jim watson"
   },
   "128": {
     "name": "Oxford",
@@ -1745,7 +1745,7 @@
     "area_km2": 45.59,
     "area_type": "total",
     "elevation_m": -1,
-    "leader": "Oxford City Council"
+    "leader": "oxford city council"
   },
   "129": {
     "name": "Oslo",
@@ -1758,7 +1758,7 @@
     "area_km2": 480.75,
     "area_type": "total",
     "elevation_m": 23,
-    "leader": "Marianne Borgen"
+    "leader": "marianne borgen"
   },
   "130": {
     "name": "Odense",
@@ -1785,7 +1785,7 @@
     "population_density": 20382.08,
     "area_km2": 105.4,
     "area_type": "total",
-    "leader": "Anne Hidalgo",
+    "leader": "anne hidalgo",
     "errors": [
       "elevation_m"
     ]
@@ -1801,7 +1801,7 @@
     "area_km2": 375.5,
     "area_type": "total",
     "elevation_m": 15.2,
-    "leader": "Ted Wheeler"
+    "leader": "ted wheeler"
   },
   "133": {
     "name": "Plymouth",
@@ -1809,7 +1809,7 @@
     "subdivision_type": "sovereign state",
     "country": "united kingdom; gb; gbr",
     "elevation_m": 155,
-    "leader": "Labour",
+    "leader": "labour",
     "errors": [
       "population",
       "area_km2",
@@ -1827,7 +1827,7 @@
     "area_km2": 496,
     "area_type": "total",
     "elevation_m": 288,
-    "leader": "Zdenek Hrib"
+    "leader": "zdenek hrib"
   },
   "135": {
     "name": "Peterborough",
@@ -1838,7 +1838,7 @@
     "population_type": "blank1",
     "area_km2": 343.38,
     "area_type": "total",
-    "leader": "Peterborough City Council",
+    "leader": "peterborough city council",
     "errors": [
       "elevation_m",
       "population_density"
@@ -1855,7 +1855,7 @@
     "area_km2": 96,
     "area_type": "total",
     "elevation_m": 183,
-    "leader": "Dr Steve Clifford"
+    "leader": "dr steve clifford"
   },
   "137": {
     "name": "Portsmouth",
@@ -1867,7 +1867,7 @@
     "population_density": 5932.92,
     "area_km2": 40.25,
     "area_type": "total",
-    "leader": "Portsmouth City Council",
+    "leader": "portsmouth city council",
     "errors": [
       "elevation_m"
     ]
@@ -1883,7 +1883,7 @@
     "area_km2": 151.11,
     "area_type": "total",
     "elevation_m": 316.99,
-    "leader": "Bill Peduto"
+    "leader": "bill peduto"
   },
   "139": {
     "name": "Quantico",
@@ -1911,7 +1911,7 @@
     "area_km2": 1285.41,
     "area_type": "total",
     "elevation_m": 21,
-    "leader": "Virginia Raggi"
+    "leader": "virginia raggi"
   },
   "141": {
     "name": "Riga",
@@ -1923,7 +1923,7 @@
     "population_density": 1936.69,
     "area_km2": 324,
     "area_type": "total",
-    "leader": "Suspended until election",
+    "leader": "suspended until election",
     "errors": [
       "elevation_m"
     ]
@@ -1939,7 +1939,7 @@
     "area_km2": 1221,
     "area_type": "total",
     "elevation_m": 2,
-    "leader": "Marcelo Crivella"
+    "leader": "marcelo crivella"
   },
   "143": {
     "name": "Rotterdam",
@@ -1950,7 +1950,7 @@
     "population_type": "total",
     "area_km2": 3043,
     "area_type": "blank1",
-    "leader": "Ahmed Aboutaleb",
+    "leader": "ahmed aboutaleb",
     "errors": [
       "elevation_m",
       "population_density"
@@ -1967,7 +1967,7 @@
     "area_km2": 77.12,
     "area_type": "total",
     "elevation_m": 1089,
-    "leader": "Dennis Kintigh"
+    "leader": "dennis kintigh"
   },
   "145": {
     "name": "Reno",
@@ -1980,7 +1980,7 @@
     "area_km2": 288.98,
     "area_type": "total",
     "elevation_m": 1373,
-    "leader": "Hillary Schieve"
+    "leader": "hillary schieve"
   },
   "146": {
     "name": "Redmond",
@@ -1993,7 +1993,7 @@
     "area_km2": 44.64,
     "area_type": "total",
     "elevation_m": 13,
-    "leader": "Angela Birney"
+    "leader": "angela birney"
   },
   "147": {
     "name": "Stockholm",
@@ -2006,7 +2006,7 @@
     "area_km2": 188,
     "area_type": "total",
     "elevation_m": 28,
-    "leader": "Anna Konig Jerlmyr"
+    "leader": "anna konig jerlmyr"
   },
   "148": {
     "name": "Sarajevo",
@@ -2019,7 +2019,7 @@
     "area_km2": 141.5,
     "area_type": "total",
     "elevation_m": 550,
-    "leader": "Abdulah Skaka"
+    "leader": "abdulah skaka"
   },
   "149": {
     "name": "Santiago de Compostela",
@@ -2029,7 +2029,7 @@
     "area_km2": 220,
     "area_type": "total",
     "elevation_m": 260,
-    "leader": "Xose Sanchez",
+    "leader": "xose sanchez",
     "errors": [
       "population",
       "population_density"
@@ -2046,7 +2046,7 @@
     "area_km2": 170.92,
     "area_type": "total",
     "elevation_m": 142.04,
-    "leader": "Lyda Krewson"
+    "leader": "lyda krewson"
   },
   "151": {
     "name": "Santa Monica",
@@ -2059,7 +2059,7 @@
     "area_km2": 41.43,
     "area_type": "total",
     "elevation_m": 32,
-    "leader": "Kevin McKeown"
+    "leader": "kevin mckeown"
   },
   "152": {
     "name": "Sidon",
@@ -2087,7 +2087,7 @@
     "area_km2": 66.21,
     "area_type": "total",
     "elevation_m": 116,
-    "leader": "Ben Walsh"
+    "leader": "ben walsh"
   },
   "154": {
     "name": "San Diego",
@@ -2100,7 +2100,7 @@
     "area_km2": 964.56,
     "area_type": "total",
     "elevation_m": 18.9,
-    "leader": "Kevin Faulconer"
+    "leader": "kevin faulconer"
   },
   "155": {
     "name": "St. John's",
@@ -2128,7 +2128,7 @@
     "area_km2": 58.27,
     "area_type": "urban",
     "elevation_m": 80.8,
-    "leader": "Don Darling"
+    "leader": "don darling"
   },
   "157": {
     "name": "Srebrenica",
@@ -2140,7 +2140,7 @@
     "population_density": 995.04,
     "area_km2": 2.62,
     "area_type": "blank1",
-    "leader": "Mladen Grujicic",
+    "leader": "mladen grujicic",
     "errors": [
       "elevation_m"
     ]
@@ -2156,7 +2156,7 @@
     "area_km2": 571.46,
     "area_type": "total",
     "elevation_m": 240,
-    "leader": "Petre Silegov"
+    "leader": "petre silegov"
   },
   "159": {
     "name": "Sacramento",
@@ -2169,7 +2169,7 @@
     "area_km2": 258.41,
     "area_type": "total",
     "elevation_m": 9.14,
-    "leader": "Darrell Steinberg"
+    "leader": "darrell steinberg"
   },
   "160": {
     "name": "The Hague",
@@ -2181,7 +2181,7 @@
     "area_km2": 3043,
     "area_type": "blank1",
     "elevation_m": 1,
-    "leader": "Jan van Zanen",
+    "leader": "jan van zanen",
     "errors": [
       "population_density"
     ]

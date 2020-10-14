@@ -1,8 +1,9 @@
 
 const fs = require('fs');
 const lineReader = require('line-reader');
-const CountryChecker = require('./CountryChecker/CountryChecker.js')
-const converter = require('./unit-converter')
+const removeAccents = require('remove-accents');
+const CountryChecker = require('./CountryChecker/CountryChecker.js');
+const converter = require('./unit-converter');
 
 class Parser {
 
@@ -275,7 +276,7 @@ class Parser {
   normalizeLeaderName() {
     const keys = ['leader_name4', 'leader_name3', 'leader_name2', 'leader_name1', 'leader_name']
     for (const key of keys) {
-      if (this.data[this.activeId][key]) {
+      if (this.data[this.activeId][key] && !this.data[this.activeId][key].includes('mayor')) {
         this.data[this.activeId].leader = this.data[this.activeId][key]
       }
 
@@ -444,13 +445,20 @@ class Parser {
 
     if (key && value) {
       let final = undefined
-      let name = value.normalize('NFD').replace(/[\u0300-\u036f]/g, '')
-      name = name.match(/(\[\[.+?]])|^(\w[.']?\w*(?: +\w[.']?\w*)*)/i) || []
+      // TODO nejak ten apostrof nahradit
+      // TODO uoznit aby to bralo aj ludico maju v mene Filip (F) Loja
+      let name = removeAccents(value).replace(/["’]/gi, '')
+      // if (this.activeId === 6710) {
+      //   console.log(name)
+      //   console.log('_'.repeat(30))
+      // }
+      // ((?:\w[\w.']*)(?:\s+\w[\w.']*)*) -> format mena, pismena, bodka, apostrof a slova oddelene medzerou
+      name = name.match(/(\[\[.+?]])|^((?:\w[\w.']*)(?:\s+\w[\w.']*)*)/i) || []
 
       if (name[1]) {
-        let match = name[1].match(/\[\[.+?\|(\w[.']?\w*(?: +\w[.']?\w*)*)]]/i)
+        let match = name[1].match(/\[\[.+?\|((?:\w[\w.']*)(?:\s+\w[\w.']*)*)]]/i)
         if (!match) {
-          match = name[1].match(/\[\[(\w[.']?\w*(?: +\w[.']?\w*)*)]]/i) || []
+          match = name[1].match(/\[\[((?:\w[\w.']*)(?:\s+\w[\w.']*)*)]]/i) || []
         }
         final = match[1]
       }
@@ -458,7 +466,7 @@ class Parser {
         final = name[2]
       }
 
-      this.data[this.activeId][key] = final
+      this.data[this.activeId][key] = final && final.toLowerCase()
     }
   }
 
@@ -495,7 +503,7 @@ class Parser {
 
     for (const key in this.data) {
       if (this.data[key].leader) {
-        console.log(this.data[key].leader)
+        console.log(key, this.data[key].leader)
       }
     }
 
