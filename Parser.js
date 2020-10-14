@@ -30,10 +30,15 @@ class Parser {
     this.parseSettlementType()
     this.parseSubdivisionType()
     this.parseSubdivisionName()
-    this.parsePopulation()
     this.parsePopulationDensity()
-    this.parseArea()
-    this.parseElevation()
+
+    // this.parsePopulation()
+    // this.parseArea()
+    // this.parseElevation()
+
+    this.parseNumberLine('population', 'population_total')
+    this.parseNumberLine('area', 'area_total_km2')
+    this.parseNumberLine('elevation', 'elevation_m')
 
     if (isLast) {
       this.finish()
@@ -390,7 +395,30 @@ class Parser {
     }
   }
 
-  // niektore infoboxy nemali data ale len odkazy z ktorych sa udaje neali vyparsovat
+  // niektore infoboxy nemali data ale len odkazy z ktorych sa udaje nedali vyparsovat
+  parseNumberLine(lineType, stopKey) {
+    const regexps = {
+      population:   /\|\s*(population_(?:total|urban|blank[12]?))\s*=\s*(.*)/i,
+      area:         /\|\s*(area_(?:total|urban|blank[12])_(?:km2|ha|sq_mi|acre))\s*=\s*(.*)/i,
+      elevation:    /\|\s*(elevation(?:_max|_min)?_(?:m|ft))\s*=\s*(.*)/i,
+    }
+
+    if (!this.infoboxActive() || this.data[this.activeId][stopKey] || !regexps[lineType]) {
+      return
+    }
+
+    const regex = regexps[lineType]
+    const result = this.line.match(regex) || []
+    const key = result[1]
+    const numRaw = result[2]
+    if (key && numRaw) {
+      let num = numRaw.replace(/,/g, '')
+      num = num.match(/(?:^|\s+)(?:[1-9]\d*(?:\.\d+)?|0\.\d+)/) || []
+      this.data[this.activeId][key] = num[0] && Number(num[0])
+    }
+  }
+
+  // niektore infoboxy nemali data ale len odkazy z ktorych sa udaje nedali vyparsovat
   parsePopulation() {
     if (!this.infoboxActive() || this.data[this.activeId].population_total) return
     const regex = /\|\s*(population_(?:total|urban|blank[12]?))\s*=\s*(.*)/i
@@ -401,23 +429,6 @@ class Parser {
       let population = populationRaw.replace(/,/g, '')
       population = population.match(/(?:^|\s+)(?:[1-9]\d*(?:\.\d+)?|0\.\d+)/) || []
       this.data[this.activeId][key] = population[0] && Number(population[0])
-    }
-  }
-
-  parsePopulationDensity() {
-    if (!this.infoboxActive() || this.data[this.activeId].population_density_km2) return
-    const regex = /\|\s*population_density(_urban|_blank[12]?)?_km2\s*=\s*(.*)/i
-    const result = this.line.match(regex) || []
-    if (result[2]) {
-      const key = 'population_density' + (result[1] || '') + '_km2'
-      let populationDensity = result[2].replace(/,/g, '')
-      populationDensity = populationDensity.match(/(?:^|\s+)[1-9]\d*(?:\.\d+)?/)
-      if (populationDensity) {
-        this.data[this.activeId][key] = populationDensity[0] && Number(populationDensity[0])
-      } else {
-        populationDensity = result[2].match(/\bauto\b/i) || []
-        this.data[this.activeId][key] = populationDensity[0]
-      }
     }
   }
 
@@ -444,6 +455,23 @@ class Parser {
       let elevation = elevationRaw.replace(/,/g, '')
       elevation = elevation.match(/(?:^|\s+)(?:[1-9]\d*(?:\.\d+)?|0\.\d+)/) || []
       this.data[this.activeId][key] = elevation[0] && Number(elevation[0])
+    }
+  }
+
+  parsePopulationDensity() {
+    if (!this.infoboxActive() || this.data[this.activeId].population_density_km2) return
+    const regex = /\|\s*population_density(_urban|_blank[12]?)?_km2\s*=\s*(.*)/i
+    const result = this.line.match(regex) || []
+    if (result[2]) {
+      const key = 'population_density' + (result[1] || '') + '_km2'
+      let populationDensity = result[2].replace(/,/g, '')
+      populationDensity = populationDensity.match(/(?:^|\s+)[1-9]\d*(?:\.\d+)?/)
+      if (populationDensity) {
+        this.data[this.activeId][key] = populationDensity[0] && Number(populationDensity[0])
+      } else {
+        populationDensity = result[2].match(/\bauto\b/i) || []
+        this.data[this.activeId][key] = populationDensity[0]
+      }
     }
   }
 
