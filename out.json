@@ -1,0 +1,2018 @@
+{
+  "0": {
+    "name": "Ankara",
+    "type": "city",
+    "subdivision_type": "country",
+    "country": "turkey; tr; tur",
+    "population": 5700000,
+    "population_type": "total",
+    "area_km2": 24521,
+    "area_type": "total",
+    "elevation_m": 938,
+    "errors": [
+      "population_density"
+    ]
+  },
+  "1": {
+    "name": "Amsterdam",
+    "type": "city",
+    "subdivision_type": "country",
+    "country": "netherlands; nl; nld",
+    "population": 872680,
+    "population_type": "total",
+    "population_density": "auto",
+    "area_km2": 219.32,
+    "area_type": "total",
+    "errors": [
+      "elevation_m"
+    ]
+  },
+  "2": {
+    "name": "Aarhus",
+    "type": "city",
+    "subdivision_type": "country",
+    "country": "denmark; dk; dnk",
+    "population": 280534,
+    "population_type": "urban",
+    "population_density": 2854,
+    "area_km2": 91,
+    "area_type": "urban",
+    "elevation_m": 105
+  },
+  "3": {
+    "name": "Athens",
+    "type": "city",
+    "subdivision_type": "country",
+    "country": "greece; gr; grc",
+    "population": 664046,
+    "population_type": "total",
+    "population_density": "auto",
+    "area_km2": 38.964,
+    "area_type": "total",
+    "elevation_m": 204.05
+  },
+  "4": {
+    "name": "Ames",
+    "type": "city",
+    "subdivision_type": "country",
+    "country": "united states; us; usa",
+    "population": 58965,
+    "population_type": "total",
+    "population_density": 935.7,
+    "area_km2": 71.71,
+    "area_type": "total",
+    "elevation_m": 287
+  },
+  "5": {
+    "name": "Acapulco",
+    "type": "city",
+    "subdivision_type": "country",
+    "country": "mexico; mx; mex",
+    "population": 687608,
+    "population_type": "total",
+    "population_density": "auto",
+    "area_km2": 1880.6,
+    "area_type": "total",
+    "elevation_m": 30
+  },
+  "6": {
+    "name": "Aberdeen",
+    "type": "city",
+    "subdivision_type": "sovereign state",
+    "country": "united kingdom; gb; gbr",
+    "population": 214610,
+    "population_type": "urban",
+    "population_density": 3505.7,
+    "area_km2": 185.7,
+    "area_type": "total",
+    "errors": [
+      "elevation_m"
+    ]
+  },
+  "7": {
+    "name": "Algiers",
+    "type": "city",
+    "subdivision_type": "country",
+    "country": "algeria; dz; dza",
+    "population": 3915811,
+    "population_type": "total",
+    "population_density": "auto",
+    "area_km2": 363,
+    "area_type": "total",
+    "elevation_m": 213
+  },
+  "8": {
+    "name": "Astoria",
+    "type": "city",
+    "subdivision_type": "country",
+    "country": "united states; us; usa",
+    "population": 9477,
+    "population_type": "total",
+    "population_density": 630.01,
+    "area_km2": 25.77,
+    "area_type": "total",
+    "elevation_m": 7
+  },
+  "9": {
+    "name": "Abadan",
+    "type": "city",
+    "subdivision_type": "country",
+    "country": "iran; ir; irn",
+    "population": 231476,
+    "population_type": "urban",
+    "population_density": 167,
+    "area_km2": 1275,
+    "area_type": "urban",
+    "elevation_m": 3
+  },
+  "10": {
+    "name": "Austin",
+    "type": "city",
+    "subdivision_type": "country",
+    "country": "united states; us; usa",
+    "population": 790390,
+    "population_type": "total",
+    "population_density": 1181.35,
+    "area_km2": 845.66,
+    "area_type": "total",
+    "elevation_m": 88
+  },
+  "11": {
+    "name": "Ann Arbor",
+    "type": "city",
+    "subdivision_type": "country",
+    "country": "united states; us; usa",
+    "population": 113934,
+    "population_type": "total",
+    "population_density": 1659.29,
+    "area_km2": 74.56,
+    "area_type": "total",
+    "elevation_m": 256
+  },
+  "12": {
+    "name": "Alicante",
+    "type": "city",
+    "subdivision_type": "country",
+    "country": "spain; es; esp",
+    "population_density": "auto",
+    "area_km2": 201.27,
+    "area_type": "total",
+    "elevation_m": 3,
+    "errors": [
+      "population"
+    ]
+  },
+  "13": {
+    "name": "Abadeh",
+    "type": "city",
+    "subdivision_type": "country",
+    "country": "iran; ir; irn",
+    "population": 59116,
+    "population_type": "total",
+    "elevation_m": 1889.76,
+    "errors": [
+      "population_density",
+      "area_km2"
+    ]
+  },
+  "14": {
+    "name": "Aberdeen",
+    "type": "city",
+    "subdivision_type": "country",
+    "country": "united states; us; usa",
+    "population": 26091,
+    "population_type": "total",
+    "population_density": 660.55,
+    "area_km2": 42.98,
+    "area_type": "total",
+    "elevation_m": 397
+  },
+  "15": {
+    "name": "Alameda",
+    "type": "city",
+    "subdivision_type": "country",
+    "country": "united states; us; usa",
+    "population": 73812,
+    "population_type": "total",
+    "population_density": 2867.3,
+    "area_km2": 59.83,
+    "area_type": "total",
+    "elevation_m": 10.06
+  },
+  "16": {
+    "name": "Alexandria",
+    "type": "city",
+    "subdivision_type": "country",
+    "country": "united states; us; usa",
+    "population": 5145,
+    "population_type": "total",
+    "population_density": 634.15,
+    "area_km2": 7.83,
+    "area_type": "total",
+    "elevation_m": 265
+  },
+  "17": {
+    "name": "Alexandria",
+    "type": "city",
+    "subdivision_type": "country",
+    "country": "united states; us; usa",
+    "population": 47723,
+    "population_type": "total",
+    "population_density": 625.83,
+    "area_km2": 75.58,
+    "area_type": "total",
+    "elevation_m": 22.86
+  },
+  "18": {
+    "name": "Andersonville",
+    "type": "city",
+    "subdivision_type": "country",
+    "country": "united states; us; usa",
+    "population": 255,
+    "population_type": "total",
+    "population_density": 61.85,
+    "area_km2": 3.59,
+    "area_type": "total",
+    "elevation_m": 121
+  },
+  "19": {
+    "name": "Atlanta",
+    "type": "city",
+    "subdivision_type": "country",
+    "country": "united states; us; usa",
+    "population": 420003,
+    "population_type": "total",
+    "population_density": 1416.78,
+    "area_km2": 354.22,
+    "area_type": "total",
+    "elevation_m": 225
+  },
+  "20": {
+    "name": "The Bronx",
+    "type": "city",
+    "subdivision_type": "country",
+    "country": "united states; us; usa",
+    "population": 1418207,
+    "population_type": "total",
+    "area_km2": 147.63,
+    "area_type": "total",
+    "elevation_m": 85.34,
+    "errors": [
+      "population_density"
+    ]
+  },
+  "21": {
+    "name": "Berlin",
+    "type": "city",
+    "subdivision_type": "country",
+    "country": "germany; de; deu",
+    "population": 3769495,
+    "population_type": "total",
+    "area_km2": 891.1,
+    "area_type": "total",
+    "elevation_m": 34,
+    "errors": [
+      "population_density"
+    ]
+  },
+  "22": {
+    "name": "Bursa",
+    "type": "city",
+    "subdivision_type": "country",
+    "country": "turkey; tr; tur",
+    "population": 1854285,
+    "population_type": "urban",
+    "population_density": 1508.52,
+    "area_km2": 1036,
+    "area_type": "blank1",
+    "elevation_m": 100
+  },
+  "23": {
+    "name": "Bitola",
+    "type": "town",
+    "subdivision_type": "country",
+    "country": "NMK",
+    "population": 74550,
+    "population_type": "total",
+    "population_density": "auto",
+    "area_km2": 422.39,
+    "area_type": "total",
+    "elevation_m": 576,
+    "errors": [
+      "unrecognized country"
+    ]
+  },
+  "24": {
+    "name": "Buffalo",
+    "type": "city",
+    "subdivision_type": "country",
+    "country": "united states; us; usa",
+    "population": 261310,
+    "population_type": "total",
+    "population_density": 2441.1,
+    "area_km2": 135.92,
+    "area_type": "total",
+    "elevation_m": 182.88
+  },
+  "25": {
+    "name": "Barcelona",
+    "type": "city",
+    "subdivision_type": "country",
+    "country": "spain; es; esp",
+    "population": 4840000,
+    "population_type": "urban",
+    "population_density": "auto",
+    "area_km2": 101.4,
+    "area_type": "total",
+    "elevation_m": 12
+  },
+  "26": {
+    "name": "Baghdad",
+    "type": "city",
+    "subdivision_type": "country",
+    "country": "iraq; iq; irq",
+    "population_density": "auto",
+    "area_km2": 673,
+    "area_type": "total",
+    "elevation_m": 34,
+    "errors": [
+      "population"
+    ]
+  },
+  "27": {
+    "name": "Boone",
+    "type": "town",
+    "subdivision_type": "country",
+    "country": "united states; us; usa",
+    "population": 17122,
+    "population_type": "total",
+    "population_density": 1203.79,
+    "area_km2": 16.39,
+    "area_type": "total",
+    "elevation_m": 1015.9
+  },
+  "28": {
+    "name": "Bishkek",
+    "type": "city",
+    "subdivision_type": "country",
+    "country": "kyrgyzstan; kg; kgz",
+    "population": 1053915,
+    "population_type": "total",
+    "population_density": "auto",
+    "area_km2": 169.9,
+    "area_type": "total",
+    "elevation_m": 800
+  },
+  "29": {
+    "name": "Baku",
+    "type": "city",
+    "subdivision_type": "country",
+    "country": "azerbaijan; az; aze",
+    "population": 2293700,
+    "population_type": "total",
+    "population_density": 1057,
+    "area_km2": 2140,
+    "area_type": "total",
+    "errors": [
+      "elevation_m"
+    ]
+  },
+  "30": {
+    "name": "Berkeley",
+    "type": "city",
+    "subdivision_type": "country",
+    "country": "united states; us; usa",
+    "population": 112580,
+    "population_type": "total",
+    "population_density": 4491.54,
+    "area_km2": 45.73,
+    "area_type": "total",
+    "elevation_m": 52.12
+  },
+  "31": {
+    "name": "Copenhagen",
+    "type": "city",
+    "subdivision_type": "country",
+    "country": "denmark; dk; dnk",
+    "population": 794128,
+    "population_type": "total",
+    "population_density": "auto",
+    "area_km2": 179.8,
+    "area_type": "total",
+    "elevation_m": 46
+  },
+  "32": {
+    "name": "Cambridge",
+    "type": "city",
+    "subdivision_type": "country",
+    "country": "united states; us; usa",
+    "population": 105162,
+    "population_type": "total",
+    "population_density": 7182.02,
+    "area_km2": 18.38,
+    "area_type": "total",
+    "elevation_m": 12
+  },
+  "33": {
+    "name": "Cardiff",
+    "type": "city",
+    "subdivision_type": "sovereign state",
+    "country": "united kingdom; gb; gbr",
+    "population": 479000,
+    "population_type": "urban",
+    "population_density": "auto",
+    "area_km2": 140.3,
+    "area_type": "total",
+    "errors": [
+      "elevation_m"
+    ]
+  },
+  "34": {
+    "name": "Columbus",
+    "type": "city",
+    "subdivision_type": "country",
+    "country": "united states; us; usa",
+    "population": 787033,
+    "population_type": "total",
+    "population_density": 1582.6,
+    "area_km2": 582.94,
+    "area_type": "total",
+    "elevation_m": 275
+  },
+  "35": {
+    "name": "Cleveland",
+    "type": "city",
+    "subdivision_type": "country",
+    "country": "united states; us; usa",
+    "population": 396815,
+    "population_type": "total",
+    "population_density": 1892.49,
+    "area_km2": 213.62,
+    "area_type": "total",
+    "elevation_m": 199
+  },
+  "36": {
+    "name": "Chernobyl",
+    "type": "city",
+    "subdivision_type": "country",
+    "country": "ukraine; ua; ukr",
+    "errors": [
+      "population_density",
+      "population",
+      "area_km2",
+      "elevation_m"
+    ]
+  },
+  "37": {
+    "name": "Colorado Springs",
+    "type": "town",
+    "subdivision_type": "country",
+    "country": "united states; us; usa",
+    "population": 416427,
+    "population_type": "total",
+    "population_density": 946.88,
+    "area_km2": 505.98,
+    "area_type": "total",
+    "elevation_m": 1839.47
+  },
+  "38": {
+    "name": "Ceuta",
+    "type": "city",
+    "subdivision_type": "country",
+    "country": "spain; es; esp",
+    "population_density": "auto",
+    "area_km2": 18.5,
+    "area_type": "total",
+    "elevation_m": 10,
+    "errors": [
+      "population"
+    ]
+  },
+  "39": {
+    "name": "Concord",
+    "type": "city",
+    "subdivision_type": "country",
+    "country": "united states; us; usa",
+    "population": 42695,
+    "population_type": "total",
+    "population_density": 263.4,
+    "area_km2": 174.02,
+    "area_type": "total",
+    "elevation_m": 88
+  },
+  "40": {
+    "name": "City of Cadillac",
+    "type": "city",
+    "subdivision_type": "country",
+    "country": "united states; us; usa",
+    "population": 10355,
+    "population_type": "total",
+    "population_density": 574.45,
+    "area_km2": 23.09,
+    "area_type": "total",
+    "elevation_m": 399
+  },
+  "41": {
+    "name": "Cedar Falls",
+    "type": "city",
+    "subdivision_type": "country",
+    "country": "united states; us; usa",
+    "population": 39260,
+    "population_type": "total",
+    "population_density": 541.01,
+    "area_km2": 77.15,
+    "area_type": "total",
+    "elevation_m": 268
+  },
+  "42": {
+    "name": "Columbia",
+    "type": "city",
+    "subdivision_type": "country",
+    "country": "united states; us; usa",
+    "population": 108500,
+    "population_type": "total",
+    "population_density": 723.11,
+    "area_km2": 171.05,
+    "area_type": "total",
+    "elevation_m": 231.04
+  },
+  "43": {
+    "name": "Columbus",
+    "type": "city",
+    "subdivision_type": "country",
+    "country": "united states; us; usa",
+    "population": 44061,
+    "population_type": "total",
+    "population_density": 660.18,
+    "area_km2": 73.66,
+    "area_type": "total",
+    "elevation_m": 192
+  },
+  "44": {
+    "name": "City of London",
+    "type": "city",
+    "subdivision_type": "status",
+    "country": "Sui generis",
+    "population": 9401,
+    "population_type": "total",
+    "population_density": "auto",
+    "area_km2": 2.9,
+    "area_type": "total",
+    "elevation_m": 21,
+    "errors": [
+      "unrecognized country"
+    ]
+  },
+  "45": {
+    "name": "Chicago",
+    "type": "city",
+    "subdivision_type": "country",
+    "country": "united states; us; usa",
+    "population": 2695598,
+    "population_type": "total",
+    "population_density": 4573.98,
+    "area_km2": 606.6,
+    "area_type": "total",
+    "elevation_m": 182.02
+  },
+  "46": {
+    "name": "Casablanca",
+    "type": "city",
+    "subdivision_type": "country",
+    "country": "morocco; ma; mar",
+    "population": 3359818,
+    "population_type": "total",
+    "area_km2": 220,
+    "area_type": "total",
+    "elevation_m": 150,
+    "errors": [
+      "population_density"
+    ]
+  },
+  "47": {
+    "name": "Carson City",
+    "type": "capital",
+    "subdivision_type": "country",
+    "country": "united states; us; usa",
+    "population": 55274,
+    "population_type": "total",
+    "population_density": 149.24,
+    "area_km2": 407.26,
+    "area_type": "total",
+    "elevation_m": 1463
+  },
+  "48": {
+    "name": "Dayton",
+    "type": "city",
+    "subdivision_type": "country",
+    "country": "united states; us; usa",
+    "population": 141759,
+    "population_type": "total",
+    "population_density": 978.62,
+    "area_km2": 146.46,
+    "area_type": "total",
+    "elevation_m": 224.94
+  },
+  "49": {
+    "name": "Delft",
+    "type": "city",
+    "subdivision_type": "country",
+    "country": "netherlands; nl; nld",
+    "population_density": "auto",
+    "errors": [
+      "population",
+      "area_km2",
+      "elevation_m"
+    ]
+  },
+  "50": {
+    "name": "Dar es-Salaam",
+    "type": "city",
+    "subdivision_type": "country",
+    "country": "tanzania; tz; tza",
+    "population": 7995000,
+    "population_type": "total",
+    "population_density": "auto",
+    "area_km2": 10989,
+    "area_type": "total",
+    "errors": [
+      "elevation_m"
+    ]
+  },
+  "51": {
+    "name": "Dublin",
+    "type": "city",
+    "subdivision_type": "country",
+    "country": "ireland; ie; irl",
+    "population": 554554,
+    "population_type": "total",
+    "population_density": 4811,
+    "area_km2": 115,
+    "area_type": "total",
+    "errors": [
+      "elevation_m"
+    ]
+  },
+  "52": {
+    "name": "Denver",
+    "type": "city",
+    "subdivision_type": "country",
+    "country": "united states; us; usa",
+    "population": 600158,
+    "population_type": "total",
+    "population_density": 1831.82,
+    "area_km2": 401.24,
+    "area_type": "total",
+    "elevation_m": 1564
+  },
+  "53": {
+    "name": "Dedham",
+    "type": "town",
+    "subdivision_type": "country",
+    "country": "united states; us; usa",
+    "population": 25334,
+    "population_type": "total",
+    "population_density": 912.5,
+    "area_km2": 27.6,
+    "area_type": "total",
+    "elevation_m": 37
+  },
+  "54": {
+    "name": "Davenport",
+    "type": "city",
+    "subdivision_type": "country",
+    "country": "united states; us; usa",
+    "population": 99685,
+    "population_type": "total",
+    "population_density": 614.61,
+    "area_km2": 170.79,
+    "area_type": "total",
+    "elevation_m": 176.78
+  },
+  "55": {
+    "name": "Detroit",
+    "type": "city",
+    "subdivision_type": "country",
+    "country": "united states; us; usa",
+    "population": 713777,
+    "population_type": "total",
+    "population_density": 1864.98,
+    "area_km2": 370.08,
+    "area_type": "total",
+    "elevation_m": 199.95
+  },
+  "56": {
+    "name": "Dundee",
+    "type": "city",
+    "subdivision_type": "sovereign state",
+    "country": "united kingdom; gb; gbr",
+    "population": 148270,
+    "population_type": "total",
+    "population_density": 2478,
+    "area_km2": 60,
+    "area_type": "total",
+    "elevation_m": 18
+  },
+  "57": {
+    "name": "Damascus",
+    "type": "city",
+    "subdivision_type": "country",
+    "country": "syria; sy; syr",
+    "population": 1711000,
+    "population_type": "total",
+    "population_density": 22220.8,
+    "area_km2": 105,
+    "area_type": "total",
+    "elevation_m": 680
+  },
+  "58": {
+    "name": "Des Moines",
+    "type": "city",
+    "subdivision_type": "country",
+    "country": "united states; us; usa",
+    "population": 203433,
+    "population_type": "total",
+    "population_density": 938.02,
+    "area_km2": 234.81,
+    "area_type": "total",
+    "elevation_m": 291
+  },
+  "59": {
+    "name": "Eindhoven",
+    "type": "city",
+    "subdivision_type": "country",
+    "country": "netherlands; nl; nld",
+    "population": 755313,
+    "population_type": "blank1",
+    "population_density": "auto",
+    "elevation_m": 17,
+    "errors": [
+      "area_km2"
+    ]
+  },
+  "60": {
+    "name": "Helsing",
+    "type": "city",
+    "subdivision_type": "country",
+    "country": "denmark; dk; dnk",
+    "population": 47461,
+    "population_type": "urban",
+    "population_density": 2639,
+    "area_km2": 17.9,
+    "area_type": "urban",
+    "elevation_m": 8
+  },
+  "61": {
+    "name": "Edinburgh",
+    "type": "city",
+    "subdivision_type": "sovereign state",
+    "country": "united kingdom; gb; gbr",
+    "population": 488050,
+    "population_type": "total",
+    "population_density": 1828,
+    "area_km2": 264,
+    "area_type": "total",
+    "elevation_m": 47
+  },
+  "62": {
+    "name": "Ellensburg",
+    "type": "city",
+    "subdivision_type": "country",
+    "country": "united states; us; usa",
+    "population": 18174,
+    "population_type": "total",
+    "population_density": 1053.68,
+    "area_km2": 20.23,
+    "area_type": "total",
+    "elevation_m": 470
+  },
+  "63": {
+    "name": "Eugene",
+    "type": "city",
+    "subdivision_type": "country",
+    "country": "united states; us; usa",
+    "population": 156185,
+    "population_type": "total",
+    "population_density": 1509.98,
+    "area_km2": 114.5,
+    "area_type": "total",
+    "elevation_m": 131
+  },
+  "64": {
+    "name": "Eureka",
+    "type": "city",
+    "subdivision_type": "city",
+    "country": "Eureka",
+    "population": 10189,
+    "population_type": "total",
+    "population_density": 402.04,
+    "area_km2": 27.71,
+    "area_type": "total",
+    "elevation_m": 139,
+    "errors": [
+      "unrecognized country"
+    ]
+  },
+  "65": {
+    "name": "Edo",
+    "type": "city",
+    "subdivision_type": "country",
+    "country": "japan; jp; jpn",
+    "population": 1000000,
+    "population_type": "total",
+    "errors": [
+      "population_density",
+      "area_km2",
+      "elevation_m"
+    ]
+  },
+  "66": {
+    "name": "Fredericton",
+    "type": "city",
+    "subdivision_type": "country",
+    "country": "canada; ca; can",
+    "population": 58220,
+    "population_type": "total",
+    "population_density": 439.2,
+    "area_km2": 132.57,
+    "area_type": "total",
+    "elevation_m": 20
+  },
+  "67": {
+    "name": "Fortaleza",
+    "type": "city",
+    "subdivision_type": "country",
+    "country": "brazil; br; bra",
+    "population": 2643247,
+    "population_type": "total",
+    "population_density": 8286.65,
+    "area_km2": 314.93,
+    "area_type": "total",
+    "elevation_m": 21
+  },
+  "68": {
+    "name": "Fort Wayne",
+    "type": "city",
+    "subdivision_type": "country",
+    "country": "united states; us; usa",
+    "population": 253691,
+    "population_type": "total",
+    "population_density": 944.2,
+    "area_km2": 286.95,
+    "area_type": "total",
+    "elevation_m": 247
+  },
+  "69": {
+    "name": "Fairmount",
+    "type": "town",
+    "subdivision_type": "country",
+    "country": "united states; us; usa",
+    "population": 2954,
+    "population_type": "total",
+    "population_density": 673.84,
+    "area_km2": 4.11,
+    "area_type": "total",
+    "elevation_m": 263
+  },
+  "70": {
+    "name": "Fort Collins",
+    "type": "town",
+    "subdivision_type": "country",
+    "country": "united states; us; usa",
+    "population": 143986,
+    "population_type": "total",
+    "population_density": 1149.5,
+    "area_km2": 151.38,
+    "area_type": "total",
+    "elevation_m": 1525
+  },
+  "71": {
+    "name": "Gothenburg",
+    "type": "city",
+    "subdivision_type": "country",
+    "country": "sweden; se; swe",
+    "population": 579281,
+    "population_type": "total",
+    "population_density": "auto",
+    "area_km2": 447.76,
+    "area_type": "total",
+    "elevation_m": 12
+  },
+  "72": {
+    "name": "Guatemala City",
+    "type": "city",
+    "subdivision_type": "country",
+    "country": "guatemala; gt; gtm",
+    "population": 923392,
+    "population_type": "total",
+    "population_density": 4196,
+    "area_km2": 220,
+    "area_type": "total",
+    "elevation_m": 1500
+  },
+  "73": {
+    "name": "Guangzhou",
+    "type": "city",
+    "subdivision_type": "country",
+    "country": "china; cn; chn",
+    "population": 14904400,
+    "population_type": "total",
+    "population_density": "auto",
+    "area_km2": 7434.4,
+    "area_type": "total",
+    "elevation_m": 21
+  },
+  "74": {
+    "name": "Guernica",
+    "type": "city",
+    "subdivision_type": "country",
+    "country": "spain; es; esp",
+    "population_density": "auto",
+    "area_km2": 8.6,
+    "area_type": "total",
+    "elevation_m": 10,
+    "errors": [
+      "population"
+    ]
+  },
+  "75": {
+    "name": "Gary",
+    "type": "city",
+    "subdivision_type": "country",
+    "country": "united states; us; usa",
+    "population": 80294,
+    "population_type": "total",
+    "population_density": 581.26,
+    "area_km2": 148.18,
+    "area_type": "total",
+    "elevation_m": 185.01
+  },
+  "76": {
+    "name": "Goshen",
+    "type": "city",
+    "subdivision_type": "country",
+    "country": "united states; us; usa",
+    "population": 31719,
+    "population_type": "total",
+    "population_density": 751.3,
+    "area_km2": 46.5,
+    "area_type": "total",
+    "elevation_m": 244
+  },
+  "77": {
+    "name": "Hamburg",
+    "type": "city",
+    "subdivision_type": "country",
+    "country": "germany; de; deu",
+    "population": 1899160,
+    "population_type": "total",
+    "population_density": "auto",
+    "area_km2": 755.22,
+    "area_type": "total",
+    "errors": [
+      "elevation_m"
+    ]
+  },
+  "78": {
+    "name": "Hilversum",
+    "type": "city",
+    "subdivision_type": "country",
+    "country": "netherlands; nl; nld",
+    "population": 90261,
+    "population_type": "total",
+    "population_density": "auto",
+    "elevation_m": 15,
+    "errors": [
+      "area_km2"
+    ]
+  },
+  "79": {
+    "name": "Houston",
+    "type": "city",
+    "subdivision_type": "country",
+    "country": "united states; us; usa",
+    "population": 2100263,
+    "population_type": "total",
+    "population_density": 1398.76,
+    "area_km2": 1739.69,
+    "area_type": "total",
+    "elevation_m": 32
+  },
+  "80": {
+    "name": "Hastings",
+    "type": "town",
+    "subdivision_type": "sovereign state",
+    "country": "united kingdom; gb; gbr",
+    "population": 92855,
+    "population_type": "total",
+    "population_density": 3300,
+    "area_km2": 29.72,
+    "area_type": "total",
+    "errors": [
+      "elevation_m"
+    ]
+  },
+  "81": {
+    "name": "Honolulu",
+    "type": "city",
+    "subdivision_type": "country",
+    "country": "united states; us; usa",
+    "population": 337256,
+    "population_type": "total",
+    "population_density": 2236.1,
+    "area_km2": 177.2,
+    "area_type": "total",
+    "elevation_m": 6
+  },
+  "82": {
+    "name": "Hanover",
+    "type": "town",
+    "subdivision_type": "country",
+    "country": "united states; us; usa",
+    "population": 11260,
+    "population_type": "total",
+    "population_density": "auto",
+    "area_km2": 130.2,
+    "area_type": "total",
+    "elevation_m": 161
+  },
+  "83": {
+    "name": "Harwich",
+    "type": "town",
+    "subdivision_type": "country",
+    "country": "united states; us; usa",
+    "population": 12243,
+    "population_type": "total",
+    "population_density": 226.3,
+    "area_km2": 85.8,
+    "area_type": "total",
+    "elevation_m": 17
+  },
+  "84": {
+    "name": "Herat",
+    "type": "city",
+    "subdivision_type": "country",
+    "country": "afghanistan; af; afg",
+    "population": 436300,
+    "population_type": "total",
+    "population_density": "auto",
+    "area_km2": 182,
+    "area_type": "total",
+    "elevation_m": 920
+  },
+  "85": {
+    "name": "Hamilton",
+    "type": "city",
+    "subdivision_type": "country",
+    "country": "canada; ca; can",
+    "population": 536917,
+    "population_type": "total",
+    "population_density": 480.6,
+    "area_km2": 1138.11,
+    "area_type": "total",
+    "elevation_m": 199.5
+  },
+  "86": {
+    "name": "Hamar",
+    "type": "city",
+    "subdivision_type": "country",
+    "country": "norway; no; nor",
+    "population": 30598,
+    "population_type": "total",
+    "population_density": "auto",
+    "area_km2": 350.94,
+    "area_type": "total",
+    "elevation_m": 150
+  },
+  "87": {
+    "name": "Iqaluit",
+    "type": "city",
+    "subdivision_type": "country",
+    "country": "canada; ca; can",
+    "population": 7740,
+    "population_type": "total",
+    "population_density": "auto",
+    "area_km2": 52.5,
+    "area_type": "total",
+    "elevation_m": 33.53
+  },
+  "88": {
+    "name": "Ithaca",
+    "type": "city",
+    "subdivision_type": "country",
+    "country": "united states; us; usa",
+    "population": 30014,
+    "population_type": "total",
+    "population_density": 2209.42,
+    "area_km2": 15.72,
+    "area_type": "total",
+    "elevation_m": 123.14
+  },
+  "89": {
+    "name": "Jerusalem",
+    "type": "city",
+    "subdivision_type": "administered by",
+    "country": "israel; il; isr",
+    "population_density": "auto",
+    "elevation_m": 754,
+    "errors": [
+      "population",
+      "area_km2"
+    ]
+  },
+  "90": {
+    "name": "Jackson",
+    "type": "city",
+    "subdivision_type": "country",
+    "country": "united states; us; usa",
+    "population": 173514,
+    "population_type": "total",
+    "population_density": 558.26,
+    "area_km2": 293.27,
+    "area_type": "total",
+    "elevation_m": 85
+  },
+  "91": {
+    "name": "Jalalabad",
+    "type": "city",
+    "subdivision_type": "country",
+    "country": "afghanistan; af; afg",
+    "population": 356275,
+    "population_type": "total",
+    "elevation_m": 575,
+    "errors": [
+      "population_density",
+      "area_km2"
+    ]
+  },
+  "92": {
+    "name": "Kuala Lumpur",
+    "type": "city",
+    "subdivision_type": "country",
+    "country": "malaysia; my; mys",
+    "population": 1790000,
+    "population_type": "total",
+    "population_density": 7366,
+    "area_km2": 243,
+    "area_type": "total",
+    "elevation_m": 66
+  },
+  "93": {
+    "name": "Kagoshima",
+    "type": "city",
+    "subdivision_type": "country",
+    "country": "japan; jp; jpn",
+    "population": 595049,
+    "population_type": "total",
+    "population_density": "auto",
+    "area_km2": 547.58,
+    "area_type": "total",
+    "errors": [
+      "elevation_m"
+    ]
+  },
+  "94": {
+    "name": "Kajang",
+    "type": "town",
+    "subdivision_type": "country",
+    "country": "malaysia; my; mys",
+    "population": 342657,
+    "population_type": "total",
+    "population_density": 685.06,
+    "area_km2": 787.61,
+    "area_type": "total",
+    "errors": [
+      "elevation_m"
+    ]
+  },
+  "95": {
+    "name": "Kathmandu",
+    "type": "capital",
+    "subdivision_type": "country",
+    "country": "nepal; np; npl",
+    "population": 975453,
+    "population_type": "total",
+    "area_km2": 49.45,
+    "area_type": "total",
+    "elevation_m": 1400,
+    "errors": [
+      "population_density"
+    ]
+  },
+  "96": {
+    "name": "Keflav",
+    "type": "town",
+    "subdivision_type": "country",
+    "country": "iceland; is; isl",
+    "population": 15930,
+    "population_type": "total",
+    "errors": [
+      "population_density",
+      "area_km2",
+      "elevation_m"
+    ]
+  },
+  "97": {
+    "name": "Kandahar",
+    "type": "city",
+    "subdivision_type": "country",
+    "country": "afghanistan; af; afg",
+    "population": 614118,
+    "population_type": "total",
+    "population_density": "auto",
+    "area_km2": 273.37,
+    "area_type": "total",
+    "elevation_m": 1010
+  },
+  "98": {
+    "name": "Kansas City",
+    "type": "city",
+    "subdivision_type": "country",
+    "country": "united states; us; usa",
+    "population": 459787,
+    "population_type": "total",
+    "population_density": 607.36,
+    "area_km2": 826.14,
+    "area_type": "total",
+    "elevation_m": 277
+  },
+  "99": {
+    "name": "Lincoln",
+    "type": "city",
+    "subdivision_type": "country",
+    "country": "united states; us; usa",
+    "population": 258379,
+    "population_type": "total",
+    "population_density": 1160,
+    "area_km2": 252.75,
+    "area_type": "total",
+    "elevation_m": 358
+  },
+  "100": {
+    "name": "London",
+    "type": "city",
+    "subdivision_type": "sovereign state",
+    "country": "united kingdom; gb; gbr",
+    "population": 8961989,
+    "population_type": "total",
+    "population_density": 5666,
+    "area_km2": 1572,
+    "area_type": "total",
+    "elevation_m": 11
+  },
+  "101": {
+    "name": "Lincoln",
+    "type": "city",
+    "subdivision_type": "sovereign state",
+    "country": "united kingdom; gb; gbr",
+    "population": 97541,
+    "population_type": "total",
+    "population_density": 687,
+    "area_km2": 35.69,
+    "area_type": "total",
+    "errors": [
+      "elevation_m"
+    ]
+  },
+  "102": {
+    "name": "Liverpool",
+    "type": "city",
+    "subdivision_type": "sovereign state",
+    "country": "united kingdom; gb; gbr",
+    "population": 864122,
+    "population_type": "urban",
+    "population_density": 4329,
+    "area_km2": 199.6,
+    "area_type": "urban",
+    "elevation_m": 70.1
+  },
+  "103": {
+    "name": "Lisbon",
+    "type": "city",
+    "subdivision_type": "country",
+    "country": "portugal; pt; prt",
+    "population": 505526,
+    "population_type": "total",
+    "population_density": "auto",
+    "area_km2": 100.05,
+    "area_type": "total",
+    "elevation_m": 2
+  },
+  "104": {
+    "name": "Los Angeles",
+    "type": "city",
+    "subdivision_type": "country",
+    "country": "united states; us; usa",
+    "population": 3792621,
+    "population_type": "total",
+    "population_density": 3276.37,
+    "area_km2": 1302.06,
+    "area_type": "total",
+    "elevation_m": 93
+  },
+  "105": {
+    "name": "Lincoln",
+    "type": "town",
+    "subdivision_type": "country",
+    "country": "united states; us; usa",
+    "population": 1662,
+    "population_type": "total",
+    "population_density": "auto",
+    "area_km2": 339,
+    "area_type": "total",
+    "elevation_m": 247
+  },
+  "106": {
+    "name": "Longmeadow",
+    "type": "town",
+    "subdivision_type": "country",
+    "country": "united states; us; usa",
+    "population": 15784,
+    "population_type": "total",
+    "population_density": 668.3,
+    "area_km2": 25,
+    "area_type": "total",
+    "elevation_m": 49
+  },
+  "107": {
+    "name": "Luanda",
+    "type": "city",
+    "subdivision_type": "country",
+    "country": "angola; ao; ago",
+    "population": 2571861,
+    "population_type": "total",
+    "population_density": "auto",
+    "area_km2": 116,
+    "area_type": "total",
+    "elevation_m": 6
+  },
+  "108": {
+    "name": "Lansing",
+    "type": "city",
+    "subdivision_type": "country",
+    "country": "united states; us; usa",
+    "population": 114297,
+    "population_type": "total",
+    "population_density": 1164.67,
+    "area_km2": 103.16,
+    "area_type": "total",
+    "elevation_m": 262
+  },
+  "109": {
+    "name": "Los Altos",
+    "type": "city",
+    "subdivision_type": "country",
+    "country": "united states; us; usa",
+    "population": 28976,
+    "population_type": "total",
+    "population_density": 1776.47,
+    "area_km2": 16.94,
+    "area_type": "total",
+    "elevation_m": 48
+  },
+  "110": {
+    "name": "Mexico City",
+    "type": "city",
+    "subdivision_type": "country",
+    "country": "mexico; mx; mex",
+    "population": 8918653,
+    "population_type": "total",
+    "population_density": "auto",
+    "area_km2": 1485,
+    "area_type": "total",
+    "elevation_m": 2240
+  },
+  "111": {
+    "name": "Mumbai",
+    "type": "city",
+    "subdivision_type": "country",
+    "country": "india; in; ind",
+    "population": 12478447,
+    "population_type": "total",
+    "population_density": "auto",
+    "area_km2": 603,
+    "area_type": "total",
+    "elevation_m": 14
+  },
+  "112": {
+    "name": "Moncton",
+    "type": "city",
+    "subdivision_type": "country",
+    "country": "canada; ca; can",
+    "population": 71889,
+    "population_type": "total",
+    "population_density": 506,
+    "area_km2": 141.92,
+    "area_type": "total",
+    "elevation_m": 70
+  },
+  "113": {
+    "name": "Maastricht",
+    "type": "city",
+    "subdivision_type": "country",
+    "country": "netherlands; nl; nld",
+    "population": 277721,
+    "population_type": "urban",
+    "population_density": "auto",
+    "elevation_m": 49,
+    "errors": [
+      "area_km2"
+    ]
+  },
+  "114": {
+    "name": "Manchester",
+    "type": "city",
+    "subdivision_type": "sovereign state",
+    "country": "UK",
+    "population": 2705000,
+    "population_type": "urban",
+    "population_density": 4051,
+    "area_km2": 630.3,
+    "area_type": "urban",
+    "elevation_m": 38,
+    "errors": [
+      "unrecognized country"
+    ]
+  },
+  "115": {
+    "name": "Melilla",
+    "type": "city",
+    "subdivision_type": "country",
+    "country": "spain; es; esp",
+    "population": 0.16,
+    "population_type": "blank1",
+    "population_density": "auto",
+    "area_km2": 12.3,
+    "area_type": "total",
+    "errors": [
+      "elevation_m"
+    ]
+  },
+  "116": {
+    "name": "Marquette",
+    "type": "city",
+    "subdivision_type": "country",
+    "country": "united states; us; usa",
+    "population": 21355,
+    "population_type": "total",
+    "population_density": 715.02,
+    "area_km2": 50.24,
+    "area_type": "total",
+    "elevation_m": 203
+  },
+  "117": {
+    "name": "Manama",
+    "type": "city",
+    "subdivision_type": "country",
+    "country": "bahrain; bh; bhr",
+    "population": 411000,
+    "population_type": "urban",
+    "population_density": 5200,
+    "area_km2": 30,
+    "area_type": "total",
+    "errors": [
+      "elevation_m"
+    ]
+  },
+  "118": {
+    "name": "Marrakesh",
+    "type": "city",
+    "subdivision_type": "country",
+    "country": "morocco; ma; mar",
+    "population": 928850,
+    "population_type": "total",
+    "elevation_m": 466,
+    "errors": [
+      "population_density",
+      "area_km2"
+    ]
+  },
+  "119": {
+    "type": "city",
+    "subdivision_type": "country",
+    "country": "afghanistan; af; afg",
+    "population": 427600,
+    "population_type": "total",
+    "population_density": "auto",
+    "elevation_m": 357,
+    "errors": [
+      "area_km2"
+    ]
+  },
+  "120": {
+    "name": "Maribor",
+    "type": "city",
+    "subdivision_type": "country",
+    "country": "slovenia; si; svn",
+    "population": 96211,
+    "population_type": "total",
+    "population_density": 2348,
+    "area_km2": 40.98,
+    "area_type": "total",
+    "elevation_m": 274.7
+  },
+  "121": {
+    "name": "Mobile",
+    "type": "city",
+    "subdivision_type": "country",
+    "country": "united states; us; usa",
+    "population": 195111,
+    "population_type": "total",
+    "population_density": 522.47,
+    "area_km2": 466.34,
+    "area_type": "total",
+    "elevation_m": 3
+  },
+  "122": {
+    "name": "Nairobi",
+    "type": "city",
+    "subdivision_type": "country",
+    "country": "kenya; ke; ken",
+    "population": 4397073,
+    "population_type": "total",
+    "population_density": 6317.6,
+    "area_km2": 696,
+    "area_type": "total",
+    "elevation_m": 1795
+  },
+  "123": {
+    "name": "Nijmegen",
+    "type": "city",
+    "subdivision_type": "country",
+    "country": "netherlands; nl; nld",
+    "population_density": "auto",
+    "elevation_m": 29,
+    "errors": [
+      "population",
+      "area_km2"
+    ]
+  },
+  "124": {
+    "name": "Nagasaki",
+    "type": "city",
+    "subdivision_type": "country",
+    "country": "JAP",
+    "population": 407624,
+    "population_type": "total",
+    "population_density": "auto",
+    "area_km2": 405.86,
+    "area_type": "total",
+    "elevation_m": -1,
+    "errors": [
+      "unrecognized country"
+    ]
+  },
+  "125": {
+    "name": "Nanjing",
+    "type": "city",
+    "subdivision_type": "country",
+    "country": "china; cn; chn",
+    "population": 8505500,
+    "population_type": "total",
+    "population_density": 1237,
+    "area_km2": 6587,
+    "area_type": "total",
+    "elevation_m": 15.24
+  },
+  "126": {
+    "name": "Nashville",
+    "type": "city",
+    "subdivision_type": "country",
+    "country": "united states; us; usa",
+    "population": 694144,
+    "population_type": "total",
+    "area_km2": 1362.18,
+    "area_type": "total",
+    "elevation_m": 181.97,
+    "errors": [
+      "population_density"
+    ]
+  },
+  "127": {
+    "name": "Ottawa",
+    "type": "city",
+    "subdivision_type": "country",
+    "country": "canada; ca; can",
+    "population": 934243,
+    "population_type": "total",
+    "population_density": 334,
+    "area_km2": 2790.3,
+    "area_type": "total",
+    "elevation_m": 70
+  },
+  "128": {
+    "name": "Oxford",
+    "type": "city",
+    "subdivision_type": "sovereign state",
+    "country": "united kingdom; gb; gbr",
+    "population": 154600,
+    "population_type": "total",
+    "population_density": 3270,
+    "area_km2": 45.59,
+    "area_type": "total",
+    "elevation_m": -1
+  },
+  "129": {
+    "name": "Oslo",
+    "type": "city",
+    "subdivision_type": "country",
+    "country": "norway; no; nor",
+    "population": 693491,
+    "population_type": "total",
+    "population_density": "auto",
+    "area_km2": 480.75,
+    "area_type": "total",
+    "elevation_m": 23
+  },
+  "130": {
+    "name": "Odense",
+    "type": "city",
+    "subdivision_type": "country",
+    "country": "denmark; dk; dnk",
+    "population": 180302,
+    "population_type": "urban",
+    "population_density": "auto",
+    "area_km2": 79.1,
+    "area_type": "urban",
+    "elevation_m": 13
+  },
+  "131": {
+    "name": "Paris",
+    "type": "city",
+    "subdivision_type": "country",
+    "country": "france; fr; fra",
+    "population": 2148271,
+    "population_type": "total",
+    "population_density": "auto",
+    "area_km2": 105.4,
+    "area_type": "total",
+    "errors": [
+      "elevation_m"
+    ]
+  },
+  "132": {
+    "name": "Portland",
+    "type": "city",
+    "subdivision_type": "country",
+    "country": "united states; us; usa",
+    "population": 583776,
+    "population_type": "total",
+    "population_density": 1894.68,
+    "area_km2": 375.5,
+    "area_type": "total",
+    "elevation_m": 15.2
+  },
+  "133": {
+    "name": "Plymouth",
+    "type": "city",
+    "subdivision_type": "sovereign state",
+    "country": "united kingdom; gb; gbr",
+    "population_density": "auto",
+    "elevation_m": 155,
+    "errors": [
+      "population",
+      "area_km2"
+    ]
+  },
+  "134": {
+    "name": "Prague",
+    "type": "city",
+    "subdivision_type": "country",
+    "country": "czech republic; cz; cze",
+    "population": 1324277,
+    "population_type": "total",
+    "population_density": "auto",
+    "area_km2": 496,
+    "area_type": "total",
+    "elevation_m": 288
+  },
+  "135": {
+    "name": "Peterborough",
+    "type": "city",
+    "subdivision_type": "sovereign state",
+    "country": "united kingdom; gb; gbr",
+    "population": 82.5,
+    "population_type": "blank1",
+    "area_km2": 343.38,
+    "area_type": "total",
+    "errors": [
+      "population_density",
+      "elevation_m"
+    ]
+  },
+  "136": {
+    "name": "Paris",
+    "type": "city",
+    "subdivision_type": "country",
+    "country": "united states; us; usa",
+    "population": 25171,
+    "population_type": "total",
+    "population_density": 272.62,
+    "area_km2": 96,
+    "area_type": "total",
+    "elevation_m": 183
+  },
+  "137": {
+    "name": "Portsmouth",
+    "type": "city",
+    "subdivision_type": "sovereign state",
+    "country": "united kingdom; gb; gbr",
+    "population": 238800,
+    "population_type": "total",
+    "population_density": "auto",
+    "area_km2": 40.25,
+    "area_type": "total",
+    "errors": [
+      "elevation_m"
+    ]
+  },
+  "138": {
+    "name": "Pittsburgh",
+    "type": "city",
+    "subdivision_type": "country",
+    "country": "united states; us; usa",
+    "population": 305704,
+    "population_type": "total",
+    "population_density": 2093.7,
+    "area_km2": 151.11,
+    "area_type": "total",
+    "elevation_m": 316.99
+  },
+  "139": {
+    "name": "Quantico",
+    "type": "town",
+    "subdivision_type": "country",
+    "country": "united states; us; usa",
+    "population": 480,
+    "population_type": "total",
+    "population_density": 3066.86,
+    "area_km2": 0.18,
+    "area_type": "total",
+    "elevation_m": 11.89
+  },
+  "140": {
+    "name": "Rome",
+    "type": "city",
+    "subdivision_type": "country",
+    "country": "italy; it; ita",
+    "population": 2860009,
+    "population_type": "blank1",
+    "population_density": 2236,
+    "area_km2": 1285.41,
+    "area_type": "total",
+    "elevation_m": 21
+  },
+  "141": {
+    "name": "Riga",
+    "type": "city",
+    "subdivision_type": "country",
+    "country": "latvia; lv; lva",
+    "population": 627487,
+    "population_type": "total",
+    "population_density": "auto",
+    "area_km2": 324,
+    "area_type": "total",
+    "errors": [
+      "elevation_m"
+    ]
+  },
+  "142": {
+    "name": "Rio de Janeiro",
+    "type": "city",
+    "subdivision_type": "country",
+    "country": "brazil; br; bra",
+    "population": 6718903,
+    "population_type": "total",
+    "area_km2": 1221,
+    "area_type": "total",
+    "elevation_m": 2,
+    "errors": [
+      "population_density"
+    ]
+  },
+  "143": {
+    "name": "Rotterdam",
+    "type": "city",
+    "subdivision_type": "country",
+    "country": "netherlands; nl; nld",
+    "population": 651446,
+    "population_type": "total",
+    "population_density": "auto",
+    "area_km2": 3043,
+    "area_type": "blank1",
+    "errors": [
+      "elevation_m"
+    ]
+  },
+  "144": {
+    "name": "Roswell",
+    "type": "city",
+    "subdivision_type": "country",
+    "country": "united states; us; usa",
+    "population": 48411,
+    "population_type": "total",
+    "population_density": 617.83,
+    "area_km2": 77.12,
+    "area_type": "total",
+    "elevation_m": 1089
+  },
+  "145": {
+    "name": "Reno",
+    "type": "city",
+    "subdivision_type": "country",
+    "country": "united states; us; usa",
+    "population": 225221,
+    "population_type": "total",
+    "population_density": 907.52,
+    "area_km2": 288.98,
+    "area_type": "total",
+    "elevation_m": 1373
+  },
+  "146": {
+    "name": "Redmond",
+    "type": "city",
+    "subdivision_type": "country",
+    "country": "united states; us; usa",
+    "population": 54144,
+    "population_type": "total",
+    "population_density": 1676.35,
+    "area_km2": 44.64,
+    "area_type": "total",
+    "elevation_m": 13
+  },
+  "147": {
+    "name": "Stockholm",
+    "type": "city",
+    "subdivision_type": "country",
+    "country": "sweden; se; swe",
+    "population": 975904,
+    "population_type": "total",
+    "population_density": "auto",
+    "area_km2": 188,
+    "area_type": "total",
+    "elevation_m": 28
+  },
+  "148": {
+    "name": "Sarajevo",
+    "type": "city",
+    "subdivision_type": "country",
+    "country": "bosnia and herzegovina; ba; bih",
+    "population": 275524,
+    "population_type": "total",
+    "population_density": "auto",
+    "area_km2": 141.5,
+    "area_type": "total",
+    "elevation_m": 550
+  },
+  "149": {
+    "name": "Santiago de Compostela",
+    "type": "city",
+    "subdivision_type": "country",
+    "country": "spain; es; esp",
+    "population_density": "auto",
+    "area_km2": 220,
+    "area_type": "total",
+    "elevation_m": 260,
+    "errors": [
+      "population"
+    ]
+  },
+  "150": {
+    "name": "St. Louis",
+    "type": "city",
+    "subdivision_type": "country",
+    "country": "united states; us; usa",
+    "population": 319294,
+    "population_type": "total",
+    "population_density": 1879.56,
+    "area_km2": 170.92,
+    "area_type": "total",
+    "elevation_m": 142.04
+  },
+  "151": {
+    "name": "Santa Monica",
+    "type": "city",
+    "subdivision_type": "country",
+    "country": "united states; us; usa",
+    "population": 89736,
+    "population_type": "total",
+    "population_density": 4147.77,
+    "area_km2": 41.43,
+    "area_type": "total",
+    "elevation_m": 32
+  },
+  "152": {
+    "name": "Sidon",
+    "type": "city",
+    "subdivision_type": "country",
+    "country": "lebanon; lb; lbn",
+    "population": 80000,
+    "population_type": "total",
+    "area_km2": 7,
+    "area_type": "total",
+    "errors": [
+      "population_density",
+      "elevation_m"
+    ]
+  },
+  "153": {
+    "name": "Syracuse",
+    "type": "city",
+    "subdivision_type": "country",
+    "country": "united states; us; usa",
+    "population": 145170,
+    "population_type": "total",
+    "population_density": 2199.55,
+    "area_km2": 66.21,
+    "area_type": "total",
+    "elevation_m": 116
+  },
+  "154": {
+    "name": "San Diego",
+    "type": "city",
+    "subdivision_type": "country",
+    "country": "united states; us; usa",
+    "population": 1307402,
+    "population_type": "total",
+    "population_density": 1686.98,
+    "area_km2": 964.56,
+    "area_type": "total",
+    "elevation_m": 18.9
+  },
+  "155": {
+    "name": "St. John's",
+    "type": "city",
+    "subdivision_type": "country",
+    "country": "antigua and barbuda; ag; atg",
+    "population": 22219,
+    "population_type": "total",
+    "population_density": 3100,
+    "area_km2": 10,
+    "area_type": "total",
+    "errors": [
+      "elevation_m"
+    ]
+  },
+  "156": {
+    "name": "Saint John",
+    "type": "city",
+    "subdivision_type": "country",
+    "country": "canada; ca; can",
+    "population": 67575,
+    "population_type": "total",
+    "population_density": 213.8,
+    "area_km2": 58.27,
+    "area_type": "urban",
+    "elevation_m": 80.8
+  },
+  "157": {
+    "name": "Srebrenica",
+    "type": "town",
+    "subdivision_type": "country",
+    "country": "bosnia and herzegovina; ba; bih",
+    "population": 2607,
+    "population_type": "blank1",
+    "population_density": "auto",
+    "area_km2": 2.62,
+    "area_type": "blank1",
+    "errors": [
+      "elevation_m"
+    ]
+  },
+  "158": {
+    "name": "Skopje",
+    "type": "city",
+    "subdivision_type": "country",
+    "country": "north macedonia; mk; mkd",
+    "population": 506926,
+    "population_type": "total",
+    "population_density": "auto",
+    "area_km2": 571.46,
+    "area_type": "total",
+    "elevation_m": 240
+  },
+  "159": {
+    "name": "Sacramento",
+    "type": "city",
+    "subdivision_type": "country",
+    "country": "united states; us; usa",
+    "population": 466488,
+    "population_type": "total",
+    "population_density": 2030.13,
+    "area_km2": 258.41,
+    "area_type": "total",
+    "elevation_m": 9.14
+  },
+  "160": {
+    "name": "The Hague",
+    "type": "city",
+    "subdivision_type": "country",
+    "country": "netherlands; nl; nld",
+    "population": 544766,
+    "population_type": "total",
+    "population_density": "auto",
+    "area_km2": 3043,
+    "area_type": "blank1",
+    "elevation_m": 1
+  }
+}
