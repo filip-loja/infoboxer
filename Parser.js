@@ -31,6 +31,7 @@ class Parser {
     this.parseSettlementType()
     this.parseSubdivisionType()
     this.parseSubdivisionName()
+    this.parseLeaderName()
 
     this.parseNumberLine('population', 'population_total')
     this.parseNumberLine('area', 'area_total_km2')
@@ -88,6 +89,7 @@ class Parser {
       'area_km2',
       'area_type',
       'elevation_m',
+      'leader',
       'errors',
     ]
 
@@ -138,6 +140,12 @@ class Parser {
     this.normalizePopulationDensity()
     if (!this.data[this.activeId].population_density) {
       this.pushError('population_density')
+    }
+
+    // LEADER NAME
+    this.normalizeLeaderName()
+    if (!this.data[this.activeId].leader) {
+      this.pushError('leader')
     }
 
   }
@@ -260,6 +268,17 @@ class Parser {
     }
 
     for (const key of keys) {
+      delete this.data[this.activeId][key]
+    }
+  }
+
+  normalizeLeaderName() {
+    const keys = ['leader_name4', 'leader_name3', 'leader_name2', 'leader_name1', 'leader_name']
+    for (const key of keys) {
+      if (this.data[this.activeId][key]) {
+        this.data[this.activeId].leader = this.data[this.activeId][key]
+      }
+
       delete this.data[this.activeId][key]
     }
   }
@@ -416,6 +435,33 @@ class Parser {
     }
   }
 
+  parseLeaderName() {
+    if (!this.infoboxActive() || this.data[this.activeId].leader_name) return
+    const regex = /\|\s*(leader_name[1-4]?)\s*=\s*(.*)/i
+    const result = (this.line.match(regex) || [])
+    const key = result[1]
+    const value = result[2]
+
+    if (key && value) {
+      let final = undefined
+      let name = value.normalize('NFD').replace(/[\u0300-\u036f]/g, '')
+      name = name.match(/(\[\[.+?]])|^(\w[.']?\w*(?: +\w[.']?\w*)*)/i) || []
+
+      if (name[1]) {
+        let match = name[1].match(/\[\[.+?\|(\w[.']?\w*(?: +\w[.']?\w*)*)]]/i)
+        if (!match) {
+          match = name[1].match(/\[\[(\w[.']?\w*(?: +\w[.']?\w*)*)]]/i) || []
+        }
+        final = match[1]
+      }
+      if (!final) {
+        final = name[2]
+      }
+
+      this.data[this.activeId][key] = final
+    }
+  }
+
   analyze() {
     let noErrors = true
     for (const key in this.data) {
@@ -445,7 +491,13 @@ class Parser {
     // fs.writeFileSync(`../_data/infoboxes_raw/infobox_${this.fileNum}_excluded_${this.excludedCount}.txt`, this.dataExcluded, 'utf-8')
     console.log('Parsing finished.')
     console.log('  ->  error log:')
-    this.analyze()
+    // this.analyze()
+
+    for (const key in this.data) {
+      if (this.data[key].leader) {
+        console.log(this.data[key].leader)
+      }
+    }
 
     const processEnd = process.hrtime(this.processStart)
     console.info('  ->  execution time:  %ds %dms.\n', processEnd[0], processEnd[1] / 1000000)
