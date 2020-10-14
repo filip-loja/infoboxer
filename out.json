@@ -6,12 +6,10 @@
     "country": "turkey; tr; tur",
     "population": 5700000,
     "population_type": "total",
+    "population_density": 232.45,
     "area_km2": 24521,
     "area_type": "total",
-    "elevation_m": 938,
-    "errors": [
-      "population_density"
-    ]
+    "elevation_m": 938
   },
   "1": {
     "name": "Amsterdam",
@@ -20,7 +18,7 @@
     "country": "netherlands; nl; nld",
     "population": 872680,
     "population_type": "total",
-    "population_density": "auto",
+    "population_density": 3979.03,
     "area_km2": 219.32,
     "area_type": "total",
     "errors": [
@@ -46,7 +44,7 @@
     "country": "greece; gr; grc",
     "population": 664046,
     "population_type": "total",
-    "population_density": "auto",
+    "population_density": 17042.55,
     "area_km2": 38.964,
     "area_type": "total",
     "elevation_m": 204.05
@@ -70,7 +68,7 @@
     "country": "mexico; mx; mex",
     "population": 687608,
     "population_type": "total",
-    "population_density": "auto",
+    "population_density": 365.63,
     "area_km2": 1880.6,
     "area_type": "total",
     "elevation_m": 30
@@ -96,7 +94,7 @@
     "country": "algeria; dz; dza",
     "population": 3915811,
     "population_type": "total",
-    "population_density": "auto",
+    "population_density": 10787.36,
     "area_km2": 363,
     "area_type": "total",
     "elevation_m": 213
@@ -154,12 +152,12 @@
     "type": "city",
     "subdivision_type": "country",
     "country": "spain; es; esp",
-    "population_density": "auto",
     "area_km2": 201.27,
     "area_type": "total",
     "elevation_m": 3,
     "errors": [
-      "population"
+      "population",
+      "population_density"
     ]
   },
   "13": {
@@ -171,8 +169,8 @@
     "population_type": "total",
     "elevation_m": 1889.76,
     "errors": [
-      "population_density",
-      "area_km2"
+      "area_km2",
+      "population_density"
     ]
   },
   "14": {
@@ -254,12 +252,10 @@
     "country": "united states; us; usa",
     "population": 1418207,
     "population_type": "total",
+    "population_density": 9606.5,
     "area_km2": 147.63,
     "area_type": "total",
-    "elevation_m": 85.34,
-    "errors": [
-      "population_density"
-    ]
+    "elevation_m": 85.34
   },
   "21": {
     "name": "Berlin",
@@ -268,12 +264,10 @@
     "country": "germany; de; deu",
     "population": 3769495,
     "population_type": "total",
+    "population_density": 4230.16,
     "area_km2": 891.1,
     "area_type": "total",
-    "elevation_m": 34,
-    "errors": [
-      "population_density"
-    ]
+    "elevation_m": 34
   },
   "22": {
     "name": "Bursa",
@@ -294,7 +288,7 @@
     "country": "NMK",
     "population": 74550,
     "population_type": "total",
-    "population_density": "auto",
+    "population_density": 176.5,
     "area_km2": 422.39,
     "area_type": "total",
     "elevation_m": 576,
@@ -321,22 +315,24 @@
     "country": "spain; es; esp",
     "population": 4840000,
     "population_type": "urban",
-    "population_density": "auto",
     "area_km2": 101.4,
     "area_type": "total",
-    "elevation_m": 12
+    "elevation_m": 12,
+    "errors": [
+      "population_density"
+    ]
   },
   "26": {
     "name": "Baghdad",
     "type": "city",
     "subdivision_type": "country",
     "country": "iraq; iq; irq",
-    "population_density": "auto",
     "area_km2": 673,
     "area_type": "total",
     "elevation_m": 34,
     "errors": [
-      "population"
+      "population",
+      "population_density"
     ]
   },
   "27": {
@@ -358,7 +354,7 @@
     "country": "kyrgyzstan; kg; kgz",
     "population": 1053915,
     "population_type": "total",
-    "population_density": "auto",
+    "population_density": 6203.15,
     "area_km2": 169.9,
     "area_type": "total",
     "elevation_m": 800
@@ -396,7 +392,7 @@
     "country": "denmark; dk; dnk",
     "population": 794128,
     "population_type": "total",
-    "population_density": "auto",
+    "population_density": 4416.73,
     "area_km2": 179.8,
     "area_type": "total",
     "elevation_m": 46
@@ -420,11 +416,11 @@
     "country": "united kingdom; gb; gbr",
     "population": 479000,
     "population_type": "urban",
-    "population_density": "auto",
     "area_km2": 140.3,
     "area_type": "total",
     "errors": [
-      "elevation_m"
+      "elevation_m",
+      "population_density"
     ]
   },
   "34": {
@@ -457,10 +453,10 @@
     "subdivision_type": "country",
     "country": "ukraine; ua; ukr",
     "errors": [
-      "population_density",
       "population",
       "area_km2",
-      "elevation_m"
+      "elevation_m",
+      "population_density"
     ]
   },
   "37": {
@@ -480,12 +476,12 @@
     "type": "city",
     "subdivision_type": "country",
     "country": "spain; es; esp",
-    "population_density": "auto",
     "area_km2": 18.5,
     "area_type": "total",
     "elevation_m": 10,
     "errors": [
-      "population"
+      "population",
+      "population_density"
     ]
   },
   "39": {
@@ -555,7 +551,7 @@
     "country": "Sui generis",
     "population": 9401,
     "population_type": "total",
-    "population_density": "auto",
+    "population_density": 3241.72,
     "area_km2": 2.9,
     "area_type": "total",
     "elevation_m": 21,
@@ -582,12 +578,10 @@
     "country": "morocco; ma; mar",
     "population": 3359818,
     "population_type": "total",
+    "population_density": 15271.9,
     "area_km2": 220,
     "area_type": "total",
-    "elevation_m": 150,
-    "errors": [
-      "population_density"
-    ]
+    "elevation_m": 150
   },
   "47": {
     "name": "Carson City",
@@ -618,11 +612,11 @@
     "type": "city",
     "subdivision_type": "country",
     "country": "netherlands; nl; nld",
-    "population_density": "auto",
     "errors": [
       "population",
       "area_km2",
-      "elevation_m"
+      "elevation_m",
+      "population_density"
     ]
   },
   "50": {
@@ -632,7 +626,7 @@
     "country": "tanzania; tz; tza",
     "population": 7995000,
     "population_type": "total",
-    "population_density": "auto",
+    "population_density": 727.55,
     "area_km2": 10989,
     "area_type": "total",
     "errors": [
@@ -744,10 +738,10 @@
     "country": "netherlands; nl; nld",
     "population": 755313,
     "population_type": "blank1",
-    "population_density": "auto",
     "elevation_m": 17,
     "errors": [
-      "area_km2"
+      "area_km2",
+      "population_density"
     ]
   },
   "60": {
@@ -821,9 +815,9 @@
     "population": 1000000,
     "population_type": "total",
     "errors": [
-      "population_density",
       "area_km2",
-      "elevation_m"
+      "elevation_m",
+      "population_density"
     ]
   },
   "66": {
@@ -893,7 +887,7 @@
     "country": "sweden; se; swe",
     "population": 579281,
     "population_type": "total",
-    "population_density": "auto",
+    "population_density": 1293.73,
     "area_km2": 447.76,
     "area_type": "total",
     "elevation_m": 12
@@ -917,7 +911,7 @@
     "country": "china; cn; chn",
     "population": 14904400,
     "population_type": "total",
-    "population_density": "auto",
+    "population_density": 2004.79,
     "area_km2": 7434.4,
     "area_type": "total",
     "elevation_m": 21
@@ -927,12 +921,12 @@
     "type": "city",
     "subdivision_type": "country",
     "country": "spain; es; esp",
-    "population_density": "auto",
     "area_km2": 8.6,
     "area_type": "total",
     "elevation_m": 10,
     "errors": [
-      "population"
+      "population",
+      "population_density"
     ]
   },
   "75": {
@@ -966,7 +960,7 @@
     "country": "germany; de; deu",
     "population": 1899160,
     "population_type": "total",
-    "population_density": "auto",
+    "population_density": 2514.71,
     "area_km2": 755.22,
     "area_type": "total",
     "errors": [
@@ -980,10 +974,10 @@
     "country": "netherlands; nl; nld",
     "population": 90261,
     "population_type": "total",
-    "population_density": "auto",
     "elevation_m": 15,
     "errors": [
-      "area_km2"
+      "area_km2",
+      "population_density"
     ]
   },
   "79": {
@@ -1031,7 +1025,7 @@
     "country": "united states; us; usa",
     "population": 11260,
     "population_type": "total",
-    "population_density": "auto",
+    "population_density": 86.48,
     "area_km2": 130.2,
     "area_type": "total",
     "elevation_m": 161
@@ -1055,7 +1049,7 @@
     "country": "afghanistan; af; afg",
     "population": 436300,
     "population_type": "total",
-    "population_density": "auto",
+    "population_density": 2397.25,
     "area_km2": 182,
     "area_type": "total",
     "elevation_m": 920
@@ -1079,7 +1073,7 @@
     "country": "norway; no; nor",
     "population": 30598,
     "population_type": "total",
-    "population_density": "auto",
+    "population_density": 87.19,
     "area_km2": 350.94,
     "area_type": "total",
     "elevation_m": 150
@@ -1091,7 +1085,7 @@
     "country": "canada; ca; can",
     "population": 7740,
     "population_type": "total",
-    "population_density": "auto",
+    "population_density": 147.43,
     "area_km2": 52.5,
     "area_type": "total",
     "elevation_m": 33.53
@@ -1113,11 +1107,11 @@
     "type": "city",
     "subdivision_type": "administered by",
     "country": "israel; il; isr",
-    "population_density": "auto",
     "elevation_m": 754,
     "errors": [
       "population",
-      "area_km2"
+      "area_km2",
+      "population_density"
     ]
   },
   "90": {
@@ -1141,8 +1135,8 @@
     "population_type": "total",
     "elevation_m": 575,
     "errors": [
-      "population_density",
-      "area_km2"
+      "area_km2",
+      "population_density"
     ]
   },
   "92": {
@@ -1164,7 +1158,7 @@
     "country": "japan; jp; jpn",
     "population": 595049,
     "population_type": "total",
-    "population_density": "auto",
+    "population_density": 1086.69,
     "area_km2": 547.58,
     "area_type": "total",
     "errors": [
@@ -1192,12 +1186,10 @@
     "country": "nepal; np; npl",
     "population": 975453,
     "population_type": "total",
+    "population_density": 19726.05,
     "area_km2": 49.45,
     "area_type": "total",
-    "elevation_m": 1400,
-    "errors": [
-      "population_density"
-    ]
+    "elevation_m": 1400
   },
   "96": {
     "name": "Keflav",
@@ -1207,9 +1199,9 @@
     "population": 15930,
     "population_type": "total",
     "errors": [
-      "population_density",
       "area_km2",
-      "elevation_m"
+      "elevation_m",
+      "population_density"
     ]
   },
   "97": {
@@ -1219,7 +1211,7 @@
     "country": "afghanistan; af; afg",
     "population": 614118,
     "population_type": "total",
-    "population_density": "auto",
+    "population_density": 2246.47,
     "area_km2": 273.37,
     "area_type": "total",
     "elevation_m": 1010
@@ -1293,7 +1285,7 @@
     "country": "portugal; pt; prt",
     "population": 505526,
     "population_type": "total",
-    "population_density": "auto",
+    "population_density": 5052.73,
     "area_km2": 100.05,
     "area_type": "total",
     "elevation_m": 2
@@ -1317,7 +1309,7 @@
     "country": "united states; us; usa",
     "population": 1662,
     "population_type": "total",
-    "population_density": "auto",
+    "population_density": 4.9,
     "area_km2": 339,
     "area_type": "total",
     "elevation_m": 247
@@ -1341,7 +1333,7 @@
     "country": "angola; ao; ago",
     "population": 2571861,
     "population_type": "total",
-    "population_density": "auto",
+    "population_density": 22171.22,
     "area_km2": 116,
     "area_type": "total",
     "elevation_m": 6
@@ -1377,7 +1369,7 @@
     "country": "mexico; mx; mex",
     "population": 8918653,
     "population_type": "total",
-    "population_density": "auto",
+    "population_density": 6005.83,
     "area_km2": 1485,
     "area_type": "total",
     "elevation_m": 2240
@@ -1389,7 +1381,7 @@
     "country": "india; in; ind",
     "population": 12478447,
     "population_type": "total",
-    "population_density": "auto",
+    "population_density": 20693.94,
     "area_km2": 603,
     "area_type": "total",
     "elevation_m": 14
@@ -1413,10 +1405,10 @@
     "country": "netherlands; nl; nld",
     "population": 277721,
     "population_type": "urban",
-    "population_density": "auto",
     "elevation_m": 49,
     "errors": [
-      "area_km2"
+      "area_km2",
+      "population_density"
     ]
   },
   "114": {
@@ -1441,11 +1433,11 @@
     "country": "spain; es; esp",
     "population": 0.16,
     "population_type": "blank1",
-    "population_density": "auto",
     "area_km2": 12.3,
     "area_type": "total",
     "errors": [
-      "elevation_m"
+      "elevation_m",
+      "population_density"
     ]
   },
   "116": {
@@ -1483,8 +1475,8 @@
     "population_type": "total",
     "elevation_m": 466,
     "errors": [
-      "population_density",
-      "area_km2"
+      "area_km2",
+      "population_density"
     ]
   },
   "119": {
@@ -1493,10 +1485,10 @@
     "country": "afghanistan; af; afg",
     "population": 427600,
     "population_type": "total",
-    "population_density": "auto",
     "elevation_m": 357,
     "errors": [
-      "area_km2"
+      "area_km2",
+      "population_density"
     ]
   },
   "120": {
@@ -1540,11 +1532,11 @@
     "type": "city",
     "subdivision_type": "country",
     "country": "netherlands; nl; nld",
-    "population_density": "auto",
     "elevation_m": 29,
     "errors": [
       "population",
-      "area_km2"
+      "area_km2",
+      "population_density"
     ]
   },
   "124": {
@@ -1554,7 +1546,7 @@
     "country": "JAP",
     "population": 407624,
     "population_type": "total",
-    "population_density": "auto",
+    "population_density": 1004.35,
     "area_km2": 405.86,
     "area_type": "total",
     "elevation_m": -1,
@@ -1581,12 +1573,10 @@
     "country": "united states; us; usa",
     "population": 694144,
     "population_type": "total",
+    "population_density": 509.58,
     "area_km2": 1362.18,
     "area_type": "total",
-    "elevation_m": 181.97,
-    "errors": [
-      "population_density"
-    ]
+    "elevation_m": 181.97
   },
   "127": {
     "name": "Ottawa",
@@ -1619,7 +1609,7 @@
     "country": "norway; no; nor",
     "population": 693491,
     "population_type": "total",
-    "population_density": "auto",
+    "population_density": 1442.52,
     "area_km2": 480.75,
     "area_type": "total",
     "elevation_m": 23
@@ -1631,7 +1621,7 @@
     "country": "denmark; dk; dnk",
     "population": 180302,
     "population_type": "urban",
-    "population_density": "auto",
+    "population_density": 2279.42,
     "area_km2": 79.1,
     "area_type": "urban",
     "elevation_m": 13
@@ -1643,7 +1633,7 @@
     "country": "france; fr; fra",
     "population": 2148271,
     "population_type": "total",
-    "population_density": "auto",
+    "population_density": 20382.08,
     "area_km2": 105.4,
     "area_type": "total",
     "errors": [
@@ -1667,11 +1657,11 @@
     "type": "city",
     "subdivision_type": "sovereign state",
     "country": "united kingdom; gb; gbr",
-    "population_density": "auto",
     "elevation_m": 155,
     "errors": [
       "population",
-      "area_km2"
+      "area_km2",
+      "population_density"
     ]
   },
   "134": {
@@ -1681,7 +1671,7 @@
     "country": "czech republic; cz; cze",
     "population": 1324277,
     "population_type": "total",
-    "population_density": "auto",
+    "population_density": 2669.91,
     "area_km2": 496,
     "area_type": "total",
     "elevation_m": 288
@@ -1696,8 +1686,8 @@
     "area_km2": 343.38,
     "area_type": "total",
     "errors": [
-      "population_density",
-      "elevation_m"
+      "elevation_m",
+      "population_density"
     ]
   },
   "136": {
@@ -1719,7 +1709,7 @@
     "country": "united kingdom; gb; gbr",
     "population": 238800,
     "population_type": "total",
-    "population_density": "auto",
+    "population_density": 5932.92,
     "area_km2": 40.25,
     "area_type": "total",
     "errors": [
@@ -1769,7 +1759,7 @@
     "country": "latvia; lv; lva",
     "population": 627487,
     "population_type": "total",
-    "population_density": "auto",
+    "population_density": 1936.69,
     "area_km2": 324,
     "area_type": "total",
     "errors": [
@@ -1783,12 +1773,10 @@
     "country": "brazil; br; bra",
     "population": 6718903,
     "population_type": "total",
+    "population_density": 5502.79,
     "area_km2": 1221,
     "area_type": "total",
-    "elevation_m": 2,
-    "errors": [
-      "population_density"
-    ]
+    "elevation_m": 2
   },
   "143": {
     "name": "Rotterdam",
@@ -1797,11 +1785,11 @@
     "country": "netherlands; nl; nld",
     "population": 651446,
     "population_type": "total",
-    "population_density": "auto",
     "area_km2": 3043,
     "area_type": "blank1",
     "errors": [
-      "elevation_m"
+      "elevation_m",
+      "population_density"
     ]
   },
   "144": {
@@ -1847,7 +1835,7 @@
     "country": "sweden; se; swe",
     "population": 975904,
     "population_type": "total",
-    "population_density": "auto",
+    "population_density": 5190.98,
     "area_km2": 188,
     "area_type": "total",
     "elevation_m": 28
@@ -1859,7 +1847,7 @@
     "country": "bosnia and herzegovina; ba; bih",
     "population": 275524,
     "population_type": "total",
-    "population_density": "auto",
+    "population_density": 1947.17,
     "area_km2": 141.5,
     "area_type": "total",
     "elevation_m": 550
@@ -1869,12 +1857,12 @@
     "type": "city",
     "subdivision_type": "country",
     "country": "spain; es; esp",
-    "population_density": "auto",
     "area_km2": 220,
     "area_type": "total",
     "elevation_m": 260,
     "errors": [
-      "population"
+      "population",
+      "population_density"
     ]
   },
   "150": {
@@ -1908,10 +1896,10 @@
     "country": "lebanon; lb; lbn",
     "population": 80000,
     "population_type": "total",
+    "population_density": 11428.57,
     "area_km2": 7,
     "area_type": "total",
     "errors": [
-      "population_density",
       "elevation_m"
     ]
   },
@@ -1972,7 +1960,7 @@
     "country": "bosnia and herzegovina; ba; bih",
     "population": 2607,
     "population_type": "blank1",
-    "population_density": "auto",
+    "population_density": 995.04,
     "area_km2": 2.62,
     "area_type": "blank1",
     "errors": [
@@ -1986,7 +1974,7 @@
     "country": "north macedonia; mk; mkd",
     "population": 506926,
     "population_type": "total",
-    "population_density": "auto",
+    "population_density": 887.07,
     "area_km2": 571.46,
     "area_type": "total",
     "elevation_m": 240
@@ -2010,9 +1998,11 @@
     "country": "netherlands; nl; nld",
     "population": 544766,
     "population_type": "total",
-    "population_density": "auto",
     "area_km2": 3043,
     "area_type": "blank1",
-    "elevation_m": 1
+    "elevation_m": 1,
+    "errors": [
+      "population_density"
+    ]
   }
 }

@@ -114,40 +114,6 @@ class Parser {
     delete this.data[this.activeId].official_name
     delete this.data[this.activeId].subdivision_name
 
-
-    // POPULATION
-
-    // this.data[this.activeId].population = this.data[this.activeId].population_total ||
-    //   this.data[this.activeId].population_urban ||
-    //   this.data[this.activeId].population_blank1 ||
-    //   this.data[this.activeId].population_blank2
-    //
-    // if (!this.data[this.activeId].population) {
-    //   this.pushError('population')
-    // }
-    //
-    // delete this.data[this.activeId].population_total
-    // delete this.data[this.activeId].population_urban
-    // delete this.data[this.activeId].population_blank1
-    // delete this.data[this.activeId].population_blank2
-
-
-    // POPULATION_DENSITY
-
-    this.data[this.activeId].population_density = this.data[this.activeId].population_density_km2 ||
-      this.data[this.activeId].population_density_urban_km2 ||
-      this.data[this.activeId].population_density_blank1_km2 ||
-      this.data[this.activeId].population_density_blank2_km2
-
-    if (!this.data[this.activeId].population_density) {
-      this.pushError('population_density')
-    }
-
-    delete this.data[this.activeId].population_density_km2
-    delete this.data[this.activeId].population_density_urban_km2
-    delete this.data[this.activeId].population_density_blank1_km2
-    delete this.data[this.activeId].population_density_blank2_km2
-
     // POPULATION
     this.normalizePopulation()
     if (!this.data[this.activeId].population) {
@@ -164,6 +130,12 @@ class Parser {
     this.normalizeElevation()
     if (!this.data[this.activeId].elevation_m) {
       this.pushError('elevation_m')
+    }
+
+    // POPULATION_DENSITY
+    this.normalizePopulationDensity()
+    if (!this.data[this.activeId].population_density) {
+      this.pushError('population_density')
     }
 
   }
@@ -254,6 +226,34 @@ class Parser {
         } else if (avgFt) {
           this.data[this.activeId].elevation_m = converter.convertToM('ft', avgFt)
         }
+      }
+    }
+
+    for (const key of keys) {
+      delete this.data[this.activeId][key]
+    }
+  }
+
+  normalizePopulationDensity() {
+    const keys = [
+      'population_density_blank2_km2',
+      'population_density_blank1_km2',
+      'population_density_urban_km2',
+      'population_density_km2',
+    ]
+
+    for (const key of keys) {
+      const value = this.data[this.activeId][key]
+      if (value && value !== 'auto') {
+        this.data[this.activeId].population_density = value
+      }
+    }
+
+    if (!this.data[this.activeId].population_density && this.data[this.activeId].population && this.data[this.activeId].area_km2) {
+      const typePopulation = this.data[this.activeId].population_type
+      const typeArea = this.data[this.activeId].area_type
+      if (typePopulation === typeArea) {
+        this.data[this.activeId].population_density = Number((this.data[this.activeId].population / this.data[this.activeId].area_km2).toFixed(2))
       }
     }
 
