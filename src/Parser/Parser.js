@@ -2,23 +2,26 @@
 const fs = require('fs');
 const lineReader = require('line-reader');
 const removeAccents = require('remove-accents');
-const CountryChecker = require('./CountryChecker/CountryChecker.js');
-const converter = require('./unit-converter');
+const CountryChecker = require('../CountryChecker/CountryChecker.js');
+const converter = require('../unit-converter');
+const config = require('../../config');
+const path = require('path');
 
 class Parser {
 
   constructor(filePath, fileNum) {
     this.processStart = process.hrtime()
     this.countryChecker = new CountryChecker()
+    this.outputPath = path.join(config.PROJECT_DIR, 'data', 'parsed', `parsed_infobox_${fileNum}.json`)
 
     this.filePath = filePath
-    this.fileNum = fileNum
     this.line = ''
 
     this.data = {}
     this.activeId = null
 
     console.log('\nParsing started. Please wait.')
+    console.log('  ->  file: ', filePath)
     lineReader.eachLine(this.filePath, this.processLine.bind(this))
   }
 
@@ -446,7 +449,10 @@ class Parser {
     if (key && value) {
       let final = undefined
       // TODO nejak ten apostrof nahradit
-      // TODO uoznit aby to bralo aj ludico maju v mene Filip (F) Loja
+      // TODO uoznit aby to bralo aj ludi co maju v mene Filip (F) Loja
+      // TODO Usama al-Barr
+      // TODO Ilie-Gavril Bolojan
+      // [[File:Morena logo (Mexico).svg|MORENA|link=National Regeneration Movement|25px]] [[Claudia Sheinbaum]]
       let name = removeAccents(value).replace(/["’]/gi, '')
       // if (this.activeId === 6710) {
       //   console.log(name)
@@ -494,10 +500,10 @@ class Parser {
   }
 
   finish() {
-    fs.writeFileSync('out.json', JSON.stringify(this.data, null, 2), 'utf-8')
-    // fs.writeFileSync(`../_data/infoboxes_raw/infobox_${this.fileNum}_${this.includedCount}.txt`, this.dataIncluded, 'utf-8')
-    // fs.writeFileSync(`../_data/infoboxes_raw/infobox_${this.fileNum}_excluded_${this.excludedCount}.txt`, this.dataExcluded, 'utf-8')
     console.log('Parsing finished.')
+    fs.writeFileSync(this.outputPath, JSON.stringify(this.data, null, 2), 'utf-8')
+    console.log('  ->  file saved: ', this.outputPath)
+
     console.log('  ->  error log:')
     // this.analyze()
 
