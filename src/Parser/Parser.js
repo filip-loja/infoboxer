@@ -108,9 +108,8 @@ class Parser {
 
   normalizeActiveInfobox() {
     if (!this.infoboxActive()) return
-    if (!this.data[this.activeId].name && this.data[this.activeId].official_name) {
-      this.data[this.activeId].name = this.data[this.activeId].official_name
-    }
+
+    // COUNTRY
 
     this.data[this.activeId].country = this.countryChecker.validateCountry(this.data[this.activeId].subdivision_name, this.activeId)
 
@@ -119,8 +118,13 @@ class Parser {
       this.pushError('unrecognized country')
     }
 
-    delete this.data[this.activeId].official_name
     delete this.data[this.activeId].subdivision_name
+
+    // NAME
+    this.normalizeName()
+    if (!this.data[this.activeId].name) {
+      this.pushError('name')
+    }
 
     // POPULATION
     this.normalizePopulation()
@@ -152,6 +156,13 @@ class Parser {
       this.pushError('leader')
     }
 
+  }
+
+  normalizeName() {
+    if (!this.data[this.activeId].name && this.data[this.activeId].official_name) {
+      this.data[this.activeId].name = this.data[this.activeId].official_name
+    }
+    delete this.data[this.activeId].official_name
   }
 
   normalizePopulation() {
@@ -288,34 +299,21 @@ class Parser {
   }
 
   parseName() {
-    if (!this.infoboxActive()) return
-    if (this.data[this.activeId].name) return
-    const regex = /\|\s*name\s*=\s*(.*)/i
-    const result = this.line.match(regex)
-    if (result && result[1].trim()) {
-      this.processParsedName(result)
-    } else if (!this.data[this.activeId].name && !this.data[this.activeId].official_name) {
-      const regexFallback = /\|\s*official_name\s*=\s*(.*)/i
-      const resultFallback = this.line.match(regexFallback)
-      if (resultFallback && resultFallback[1].trim()) {
-        this.processParsedName(resultFallback, true)
+    if (!this.infoboxActive() || this.data[this.activeId].name) return
+    const regex = /\|\s*((?:official_)?name)\s*=\s*(.*)/i
+    const result = this.line.match(regex) || []
+    const key = result[1]
+    const nameRaw = (result[2] && removeAccents(result[2]).trim()) || null
+    if (key && nameRaw) {
+      let name = null
+      if (/^{{/.test(nameRaw)) {
+        /** {{raise|0.2em|Guangzhou}} */
+        name = (nameRaw.match(/\|([-.'\w\s]+)}}/i) || [])[1]
+      } else {
+        name = (nameRaw.match(/^[-.'\w\s]+/i) || [])[0]
       }
+      this.data[this.activeId][key] = (name || nameRaw).trim().toLowerCase()
     }
-  }
-
-  processParsedName(regexResult, fallback = false) {
-    let name = regexResult[1]
-    if (name.startsWith('{{')) {
-      name = (name.match(/\|([-.'\w\s]+)}}/i) || [])[1] || regexResult[1]
-    } else {
-      name = (name.match(/^[-.'\w\s]+/i) || [])[0] || regexResult[1]
-    }
-    if (fallback) {
-      this.data[this.activeId].official_name = name.trim()
-    } else {
-      this.data[this.activeId].name = name.trim()
-    }
-    // this.data[this.activeId].lines.name = regexResult[1]
   }
 
   parseSettlementType() {
@@ -476,12 +474,12 @@ class Parser {
     }
   }
 
+  // TODO treba refactorovat, chyby odhalit uz pri normalizacii
   analyze() {
     let noErrors = true
     for (const key in this.data) {
       const errors = []
 
-      if (!this.data[key].name) errors.push('missing name')
       if (!this.data[key].country) errors.push('missing country')
 
       if (this.data[key].errors && this.data[key].errors.length) {
@@ -507,11 +505,11 @@ class Parser {
     console.log('  ->  error log:')
     // this.analyze()
 
-    for (const key in this.data) {
-      if (this.data[key].leader) {
-        console.log(key, this.data[key].leader)
-      }
-    }
+    // for (const key in this.data) {
+    //   if (this.data[key].leader) {
+    //     console.log(key, this.data[key].leader)
+    //   }
+    // }
 
     const processEnd = process.hrtime(this.processStart)
     console.info('  ->  execution time:  %ds %dms.\n', processEnd[0], processEnd[1] / 1000000)
