@@ -296,6 +296,10 @@ class Parser {
 
       delete this.data[this.activeId][key]
     }
+
+    if (['leader', 'vacant', 'unknown'].includes(this.data[this.activeId].leader)) {
+      delete this.data[this.activeId].leader
+    }
   }
 
   parseName() {
@@ -446,23 +450,34 @@ class Parser {
 
     if (key && value) {
       let final = undefined
-      // TODO nejak ten apostrof nahradit
-      // TODO uoznit aby to bralo aj ludi co maju v mene Filip (F) Loja
       // TODO Usama al-Barr
       // TODO Ilie-Gavril Bolojan
+      // TODO {{nowrap|Thomas Christopher ([[Republican Party (United States)|R]])}}
       // [[File:Morena logo (Mexico).svg|MORENA|link=National Regeneration Movement|25px]] [[Claudia Sheinbaum]]
-      let name = removeAccents(value).replace(/["’]/gi, '')
+      let name = removeAccents(value)
+        .replace(/["’“”]/gi, '')
+        .replace(/&nbsp;/gi, ' ')
+        .replace(/<br>/gi, ' ; ')
+
       // if (this.activeId === 6710) {
       //   console.log(name)
       //   console.log('_'.repeat(30))
       // }
-      // ((?:\w[\w.']*)(?:\s+\w[\w.']*)*) -> format mena, pismena, bodka, apostrof a slova oddelene medzerou
-      name = name.match(/(\[\[.+?]])|^((?:\w[\w.']*)(?:\s+\w[\w.']*)*)/i) || []
+
+      // format mena, pismena, bodka, apostrof a slova oddelene medzerou
+
+      // X(?:\s+(?:X|Y))*
+      // Y: \(X\)
+      // X: (?:\w[\w.']*)
+
+      // (?:\w[\w.']*)(?:\s+(?:(?:\w[\w.']*)|\((?:\w[\w.']*)\)))*
+
+      name = name.match(/(\[\[.+?]])|^((?:\w[\w.']*)(?:\s+(?:(?:\w[\w.']*)|\((?:\w[\w.']*)\)))*)/i) || []
 
       if (name[1]) {
-        let match = name[1].match(/\[\[.+?\|((?:\w[\w.']*)(?:\s+\w[\w.']*)*)]]/i)
+        let match = name[1].match(/\[\[.+?\|((?:\w[\w.']*)(?:\s+(?:(?:\w[\w.']*)|\((?:\w[\w.']*)\)))*)]]/i)
         if (!match) {
-          match = name[1].match(/\[\[((?:\w[\w.']*)(?:\s+\w[\w.']*)*)]]/i) || []
+          match = name[1].match(/\[\[((?:\w[\w.']*)(?:\s+(?:(?:\w[\w.']*)|\((?:\w[\w.']*)\)))*)]]/i) || []
         }
         final = match[1]
       }
@@ -470,7 +485,15 @@ class Parser {
         final = name[2]
       }
 
-      this.data[this.activeId][key] = final && final.toLowerCase()
+      if (final) {
+        final = final.toLowerCase()
+
+        //Mike Murphy (R)
+        const stripped = final.match(/^(.*)\((\w{1,2}|\d+)\)$/i) || []
+        this.data[this.activeId][key] = (stripped[1] ? stripped[1] : final).trim()
+      }
+
+      // this.data[this.activeId][key] = final && final.toLowerCase()
     }
   }
 
@@ -505,11 +528,11 @@ class Parser {
     console.log('  ->  error log:')
     // this.analyze()
 
-    // for (const key in this.data) {
-    //   if (this.data[key].leader) {
-    //     console.log(key, this.data[key].leader)
-    //   }
-    // }
+    for (const key in this.data) {
+      if (this.data[key].leader) {
+        console.log(key, this.data[key].leader)
+      }
+    }
 
     const processEnd = process.hrtime(this.processStart)
     console.info('  ->  execution time:  %ds %dms.\n', processEnd[0], processEnd[1] / 1000000)
