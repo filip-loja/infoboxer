@@ -489,6 +489,7 @@ class Parser {
   }
 
   // TODO treba refactorovat, chyby odhalit uz pri normalizacii
+  // TODO táto funkcia bude len vypisovat chyby
   analyze() {
     let noErrors = true
     for (const key in this.data) {
@@ -516,14 +517,14 @@ class Parser {
     fs.writeFileSync(this.outputPath, JSON.stringify(this.data, null, 2), 'utf-8')
     console.log('  ->  file saved: ', this.outputPath)
 
-    console.log('  ->  error log:')
+    // console.log('  ->  error log:')
     // this.analyze()
 
-    for (const key in this.data) {
-      if (this.data[key].leader) {
-        console.log(key, this.data[key].leader)
-      }
-    }
+    // for (const key in this.data) {
+    //   if (this.data[key].leader) {
+    //     console.log(key, this.data[key].leader)
+    //   }
+    // }
 
     const processEnd = process.hrtime(this.processStart)
     console.info('  ->  execution time:  %ds %dms.\n', processEnd[0], processEnd[1] / 1000000)
